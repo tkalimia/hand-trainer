@@ -1,0 +1,180 @@
+{
+  "version": 1,
+  "updatedAt": "2026-07-20",
+  "title": "Hand Surgery Trainer — Sample Bank",
+  "topics": [
+    { "id": "anatomy", "name": "Anatomy", "order": 1, "color": "#1d4e6b" },
+    { "id": "flexor-tendon", "name": "Flexor Tendon", "order": 2, "color": "#2d7a4f" },
+    { "id": "nerve", "name": "Nerve", "order": 3, "color": "#8b7355" },
+    { "id": "fracture", "name": "Fractures", "order": 4, "color": "#b8710a" },
+    { "id": "soft-tissue", "name": "Soft Tissue", "order": 5, "color": "#7a4fbb" }
+  ],
+  "questions": [
+    {
+      "id": "ft-001",
+      "topic": "flexor-tendon",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem": "A laceration over the volar aspect of the **middle phalanx** of the ring finger divides the flexor digitorum profundus. In which flexor tendon zone (Verdan classification) does this injury lie?",
+      "images": [
+        { "src": "images/flexor-zones.svg", "caption": "Verdan flexor tendon zones I–V", "alt": "Diagram of the palmar hand showing flexor tendon zones" }
+      ],
+      "options": [
+        { "text": "Zone I", "correct": false },
+        { "text": "Zone II", "correct": true },
+        { "text": "Zone III", "correct": false },
+        { "text": "Zone IV", "correct": false }
+      ],
+      "explanation": "**Zone II** extends from the distal palmar crease (proximal edge of the A1 pulley) to the insertion of flexor digitorum superficialis (FDS) on the middle phalanx. Within this fibro-osseous sheath the FDS and FDP run together, so repairs here historically had poor outcomes — Bunnell's **\"no man's land.\"** Modern core + epitendinous suture techniques and early active motion have greatly improved results.",
+      "references": ["Green's Operative Hand Surgery, 8e — Flexor Tendon"],
+      "tags": ["zones", "anatomy"]
+    },
+    {
+      "id": "ft-002",
+      "topic": "flexor-tendon",
+      "type": "read",
+      "difficulty": "easy",
+      "stem": "## Flexor pulley system\n\nThe flexor sheath is reinforced by **annular (A1–A5)** and **cruciate (C1–C3)** pulleys.\n\n- The **A2** (over proximal phalanx) and **A4** (over middle phalanx) pulleys are the most biomechanically important — losing them causes tendon **bowstringing**.\n- The **A1 pulley** at the MCP joint is the site released in **trigger finger** surgery.\n\nPreserve A2 and A4 whenever possible during tendon repair and sheath surgery.",
+      "references": ["Doyle JR. Anatomy of the flexor tendon sheath and pulley system."],
+      "tags": ["pulleys", "anatomy"]
+    },
+    {
+      "id": "an-001",
+      "topic": "anatomy",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem": "How many **dorsal extensor compartments** are there at the wrist, and which tendons occupy the **first** compartment?",
+      "images": [
+        { "src": "images/extensor-compartments.svg", "caption": "Six dorsal extensor compartments at the wrist", "alt": "Cross-section of the dorsal wrist showing six extensor compartments" }
+      ],
+      "options": [
+        { "text": "Six compartments; first contains APL and EPB", "correct": true },
+        { "text": "Four compartments; first contains ECRL and ECRB", "correct": false },
+        { "text": "Six compartments; first contains EPL alone", "correct": false },
+        { "text": "Five compartments; first contains FCR and PL", "correct": false }
+      ],
+      "explanation": "There are **six** dorsal extensor compartments. The **first** contains **abductor pollicis longus (APL)** and **extensor pollicis brevis (EPB)** — the tendons involved in **de Quervain tenosynovitis**. (Compartment 3 holds EPL, which turns around Lister's tubercle; compartment 2 holds ECRL/ECRB.)",
+      "references": ["Netter, Atlas of Human Anatomy — Wrist"],
+      "tags": ["extensor", "compartments"]
+    },
+    {
+      "id": "nv-001",
+      "topic": "nerve",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem": "A patient reports numbness of the **thumb, index, middle, and radial half of the ring finger**, worse at night, with a positive Phalen test. Which nerve is compressed, and where?",
+      "images": [
+        { "src": "images/carpal-tunnel.svg", "caption": "Carpal tunnel cross-section", "alt": "Cross-section of the carpal tunnel showing the median nerve and flexor tendons" }
+      ],
+      "options": [
+        { "text": "Median nerve at the carpal tunnel", "correct": true },
+        { "text": "Ulnar nerve at Guyon's canal", "correct": false },
+        { "text": "Median nerve at the pronator teres", "correct": false },
+        { "text": "Radial nerve in the radial tunnel", "correct": false }
+      ],
+      "explanation": "This is classic **carpal tunnel syndrome** — compression of the **median nerve** beneath the transverse carpal ligament. The tunnel contains **9 flexor tendons** (4 FDS, 4 FDP, 1 FPL) plus the median nerve. The **ulnar nerve travels through Guyon's canal**, superficial to the transverse carpal ligament, and is therefore spared.",
+      "references": ["Green's Operative Hand Surgery, 8e — Compression Neuropathies"],
+      "tags": ["carpal-tunnel", "median"]
+    },
+    {
+      "id": "nv-002",
+      "topic": "nerve",
+      "type": "multi",
+      "difficulty": "hard",
+      "stem": "A high-energy fracture of the **mid-shaft humerus** injures the radial nerve. Select **all** deficits you would expect. *(Choose every correct option.)*",
+      "options": [
+        { "text": "Wrist drop (loss of wrist extension)", "correct": true },
+        { "text": "Inability to extend the MCP joints", "correct": true },
+        { "text": "Loss of thumb opposition", "correct": false },
+        { "text": "Numbness of the dorsal first web space", "correct": true },
+        { "text": "Clawing of the ring and little fingers", "correct": false }
+      ],
+      "explanation": "The **radial nerve** supplies the wrist and finger extensors, so injury produces **wrist drop** and loss of **MCP extension**, plus sensory loss over the **dorsal first web space**. Thumb **opposition** is a **median** (recurrent motor branch) function, and **clawing** of the ring/little fingers is an **ulnar** nerve sign — neither is caused by radial nerve injury.",
+      "references": ["Green's Operative Hand Surgery, 8e — Radial Nerve"],
+      "tags": ["radial", "palsy"]
+    },
+    {
+      "id": "fx-001",
+      "topic": "fracture",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem": "An elderly patient falls onto an outstretched hand. Radiographs show a distal radius fracture with **dorsal angulation** of the distal fragment (\"dinner-fork\" deformity). What is the eponym?",
+      "images": [
+        { "src": "images/distal-radius.svg", "caption": "Colles fracture — dorsal angulation", "alt": "Lateral wrist radiograph schematic showing dorsal angulation of the distal radius" }
+      ],
+      "options": [
+        { "text": "Colles fracture", "correct": true },
+        { "text": "Smith fracture", "correct": false },
+        { "text": "Barton fracture", "correct": false },
+        { "text": "Galeazzi fracture", "correct": false }
+      ],
+      "explanation": "A **Colles fracture** is an extra-articular distal radius fracture with **dorsal** displacement/angulation, typically from a FOOSH in osteoporotic bone. A **Smith** fracture is the reverse (volar angulation). A **Barton** fracture is an intra-articular rim fracture with carpal subluxation; a **Galeazzi** injury is a radial shaft fracture with distal radioulnar joint disruption.",
+      "references": ["Rockwood & Green's Fractures in Adults — Distal Radius"],
+      "tags": ["distal-radius", "eponym"]
+    },
+    {
+      "id": "fx-002",
+      "topic": "fracture",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem": "A young man has wrist pain and **anatomic snuffbox tenderness** after a fall, but initial radiographs are normal. Which statement about the likely fracture is correct?",
+      "options": [
+        { "text": "The scaphoid is involved; the proximal pole is at risk of avascular necrosis", "correct": true },
+        { "text": "The lunate is involved; it never develops avascular necrosis", "correct": false },
+        { "text": "The triquetrum is involved; it is the most commonly fractured carpal bone", "correct": false },
+        { "text": "No fracture is possible if initial X-rays are normal", "correct": false }
+      ],
+      "explanation": "Snuffbox tenderness signals a **scaphoid fracture** — the most commonly fractured carpal bone. Its blood supply enters **distally and runs retrograde**, so **proximal pole** fractures risk **avascular necrosis** and non-union. Initial films are often normal: immobilize and re-image (or obtain MRI/CT) rather than clear the patient. (Avascular necrosis of the **lunate** is Kienböck disease.)",
+      "references": ["Green's Operative Hand Surgery, 8e — Carpal Fractures"],
+      "tags": ["scaphoid", "avn"]
+    },
+    {
+      "id": "st-001",
+      "topic": "soft-tissue",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem": "A 60-year-old man of Northern European descent has a painless **firm cord** in the palm and a progressive **flexion contracture** of the ring finger MCP joint. The predominant cell type driving this disease is:",
+      "options": [
+        { "text": "Myofibroblast", "correct": true },
+        { "text": "Osteoblast", "correct": false },
+        { "text": "Chondrocyte", "correct": false },
+        { "text": "Mast cell", "correct": false }
+      ],
+      "explanation": "This is **Dupuytren disease** — a proliferative fibromatosis of the **palmar fascia** driven by **myofibroblasts** (which express α-smooth-muscle actin and generate the contractile force). It most often affects the **ring and little fingers**, causing **MCP and PIP** flexion contractures. The positive tabletop test (inability to lay the hand flat) is a common surgical threshold.",
+      "references": ["Green's Operative Hand Surgery, 8e — Dupuytren"],
+      "tags": ["dupuytren", "pathology"]
+    },
+    {
+      "id": "st-002",
+      "topic": "soft-tissue",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem": "A new mother presents with radial-sided wrist pain and a **positive Finkelstein test**. Which structure is inflamed?",
+      "options": [
+        { "text": "The first dorsal compartment (APL and EPB)", "correct": true },
+        { "text": "The A1 pulley of the thumb", "correct": false },
+        { "text": "The extensor pollicis longus at Lister's tubercle", "correct": false },
+        { "text": "The triangular fibrocartilage complex", "correct": false }
+      ],
+      "explanation": "**De Quervain tenosynovitis** is stenosing tenosynovitis of the **first dorsal compartment**, which contains **APL** and **EPB**. The **Finkelstein / Eichhoff** maneuver (thumb in fist, ulnar deviation) reproduces the pain. First-line care is a thumb spica splint and a corticosteroid injection into the compartment; surgical release is reserved for refractory cases (watch for a septum separating the EPB subsheath).",
+      "references": ["Green's Operative Hand Surgery, 8e — Tendinopathies"],
+      "tags": ["de-quervain", "tenosynovitis"]
+    },
+    {
+      "id": "st-003",
+      "topic": "soft-tissue",
+      "type": "mcq",
+      "difficulty": "easy",
+      "stem": "A patient's finger painfully **catches and locks** in flexion, releasing with a snap. Palpation reveals a tender nodule at the distal palm. Surgical treatment releases which structure?",
+      "options": [
+        { "text": "The A1 pulley", "correct": true },
+        { "text": "The A2 pulley", "correct": false },
+        { "text": "The transverse carpal ligament", "correct": false },
+        { "text": "The extensor retinaculum", "correct": false }
+      ],
+      "explanation": "**Trigger finger** (stenosing flexor tenosynovitis) is a size mismatch between the flexor tendon and the **A1 pulley** at the MCP level. Release of the **A1 pulley** is curative. The **A2** pulley must be **preserved** to prevent bowstringing. Non-operative options include a corticosteroid injection into the sheath and splinting.",
+      "references": ["Green's Operative Hand Surgery, 8e — Trigger Finger"],
+      "tags": ["trigger-finger", "pulley"]
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Hand Surgery Trainer Question Bank",
+  "type": "object",
+  "required": ["version", "topics", "questions"],
+  "properties": {
+    "version": { "type": "integer", "minimum": 1 },
+    "updatedAt": { "type": "string" },
+    "title": { "type": "string" },
+    "topics": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "name"],
+        "properties": {
+          "id": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+          "name": { "type": "string" },
+          "order": { "type": "integer" },
+          "color": { "type": "string" }
+        }
+      }
+    },
+    "questions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "topic", "type", "stem"],
+        "properties": {
+          "id": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+          "topic": { "type": "string" },
+          "type": { "enum": ["mcq", "multi", "read"] },
+          "difficulty": { "enum": ["easy", "medium", "hard"] },
+          "stem": { "type": "string", "minLength": 1 },
+          "images": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["src"],
+              "properties": {
+                "src": { "type": "string" },
+                "caption": { "type": "string" },
+                "alt": { "type": "string" }
+              }
+            }
+          },
+          "options": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["text", "correct"],
+              "properties": {
+                "text": { "type": "string" },
+                "correct": { "type": "boolean" }
+              }
+            }
+          },
+          "explanation": { "type": "string" },
+          "references": { "type": "array", "items": { "type": "string" } },
+          "tags": { "type": "array", "items": { "type": "string" } }
+        }
+      }
+    }
+  }
+}

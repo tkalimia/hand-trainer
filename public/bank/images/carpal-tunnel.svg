@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 300" role="img" aria-label="Carpal tunnel cross-section">
+  <rect width="380" height="300" fill="#f8f7f4"/>
+  <!-- carpal arch -->
+  <path d="M60 150 q10 -80 130 -80 q120 0 130 80" fill="#efe9e0" stroke="#1c1c1c" stroke-width="2.5"/>
+  <!-- transverse carpal ligament -->
+  <path d="M62 150 q128 60 256 0" fill="none" stroke="#8b7355" stroke-width="7" stroke-linecap="round"/>
+  <!-- flexor tendons -->
+  <g fill="#cddbe4" stroke="#1d4e6b" stroke-width="1.6">
+    <ellipse cx="120" cy="120" rx="16" ry="13"/>
+    <ellipse cx="160" cy="112" rx="16" ry="13"/>
+    <ellipse cx="205" cy="112" rx="16" ry="13"/>
+    <ellipse cx="248" cy="120" rx="16" ry="13"/>
+    <ellipse cx="140" cy="150" rx="15" ry="12"/>
+    <ellipse cx="182" cy="146" rx="15" ry="12"/>
+    <ellipse cx="224" cy="146" rx="15" ry="12"/>
+    <ellipse cx="264" cy="150" rx="15" ry="12"/>
+    <ellipse cx="96" cy="150" rx="14" ry="12"/>
+  </g>
+  <!-- median nerve -->
+  <ellipse cx="180" cy="128" rx="24" ry="14" fill="#f2c94c" stroke="#b8710a" stroke-width="2"/>
+  <text x="180" y="132" text-anchor="middle" font-family="Heebo, sans-serif" font-size="11" font-weight="700" fill="#7a4b06">MEDIAN</text>
+  <!-- labels -->
+  <g font-family="Heebo, sans-serif" font-size="13" fill="#1c1c1c">
+    <text x="300" y="132" fill="#8b7355" font-weight="700">Transverse</text>
+    <text x="300" y="148" fill="#8b7355" font-weight="700">carpal lig.</text>
+    <text x="40" y="205" fill="#1d4e6b" font-weight="700">9 flexor tendons</text>
+    <text x="40" y="223" font-size="11" fill="#6b6762">4 FDS · 4 FDP · 1 FPL</text>
+  </g>
+  <text x="190" y="270" text-anchor="middle" font-family="Heebo, sans-serif" font-size="12" fill="#6b6762">Carpal tunnel — cross-section (schematic)</text>
+</svg>

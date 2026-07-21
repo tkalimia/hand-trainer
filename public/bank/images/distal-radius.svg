@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 280" role="img" aria-label="Colles fracture lateral view">
+  <rect width="380" height="280" fill="#f8f7f4"/>
+  <!-- radius shaft -->
+  <path d="M20 150 L250 138 q10 0 12 8 l4 30 q-2 10 -14 10 L20 182 q-8 -2 -8 -16 q0 -14 8 -16Z"
+        fill="#efe9e0" stroke="#1c1c1c" stroke-width="2.5"/>
+  <!-- fracture line -->
+  <path d="M250 132 l6 60" fill="none" stroke="#c0392b" stroke-width="3" stroke-dasharray="6 4"/>
+  <!-- distal fragment tilted dorsally (up) -->
+  <path d="M258 128 q40 -22 74 -12 q16 4 14 24 l-4 40 q-2 18 -22 16 q-40 -4 -64 -22 q-8 -8 -6 -34 q1 -12 8 -18Z"
+        fill="#e7ddcf" stroke="#1c1c1c" stroke-width="2.5"/>
+  <!-- carpus -->
+  <g fill="#dfd4c2" stroke="#1c1c1c" stroke-width="1.6">
+    <ellipse cx="332" cy="120" rx="20" ry="16"/>
+    <ellipse cx="356" cy="150" rx="14" ry="13"/>
+  </g>
+  <!-- angulation arrow -->
+  <g stroke="#1d4e6b" stroke-width="2" fill="none">
+    <path d="M300 96 q24 -6 44 6"/>
+    <path d="M338 96 l8 12 l-14 2Z" fill="#1d4e6b" stroke="none"/>
+  </g>
+  <g font-family="Heebo, sans-serif" font-size="13" fill="#1c1c1c">
+    <text x="196" y="118" fill="#c0392b" font-weight="700">fracture</text>
+    <text x="286" y="72" fill="#1d4e6b" font-weight="700">dorsal tilt</text>
+    <text x="40" y="70" fill="#6b6762" font-size="12">Lateral view · "dinner-fork" deformity</text>
+  </g>
+  <text x="190" y="262" text-anchor="middle" font-family="Heebo, sans-serif" font-size="12" fill="#6b6762">Colles fracture (schematic)</text>
+</svg>
