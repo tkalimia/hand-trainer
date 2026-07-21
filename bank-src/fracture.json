@@ -1,0 +1,73 @@
+[
+  {
+    "id": "fx-001",
+    "type": "mcq",
+    "difficulty": "easy",
+    "stem": "An elderly patient falls onto an outstretched hand. Radiographs show a distal radius fracture with **dorsal angulation** of the distal fragment (\"dinner-fork\" deformity). What is the eponym?",
+    "images": [
+      {
+        "src": "images/distal-radius.svg",
+        "caption": "Colles fracture — dorsal angulation",
+        "alt": "Lateral wrist radiograph schematic showing dorsal angulation of the distal radius"
+      }
+    ],
+    "options": [
+      {
+        "text": "Colles fracture",
+        "correct": true
+      },
+      {
+        "text": "Smith fracture",
+        "correct": false
+      },
+      {
+        "text": "Barton fracture",
+        "correct": false
+      },
+      {
+        "text": "Galeazzi fracture",
+        "correct": false
+      }
+    ],
+    "explanation": "A **Colles fracture** is an extra-articular distal radius fracture with **dorsal** displacement/angulation, typically from a FOOSH in osteoporotic bone. A **Smith** fracture is the reverse (volar angulation). A **Barton** fracture is an intra-articular rim fracture with carpal subluxation; a **Galeazzi** injury is a radial shaft fracture with distal radioulnar joint disruption.",
+    "references": [
+      "Rockwood & Green's Fractures in Adults — Distal Radius"
+    ],
+    "tags": [
+      "distal-radius",
+      "eponym"
+    ]
+  },
+  {
+    "id": "fx-002",
+    "type": "mcq",
+    "difficulty": "medium",
+    "stem": "A young man has wrist pain and **anatomic snuffbox tenderness** after a fall, but initial radiographs are normal. Which statement about the likely fracture is correct?",
+    "options": [
+      {
+        "text": "The scaphoid is involved; the proximal pole is at risk of avascular necrosis",
+        "correct": true
+      },
+      {
+        "text": "The lunate is involved; it never develops avascular necrosis",
+        "correct": false
+      },
+      {
+        "text": "The triquetrum is involved; it is the most commonly fractured carpal bone",
+        "correct": false
+      },
+      {
+        "text": "No fracture is possible if initial X-rays are normal",
+        "correct": false
+      }
+    ],
+    "explanation": "Snuffbox tenderness signals a **scaphoid fracture** — the most commonly fractured carpal bone. Its blood supply enters **distally and runs retrograde**, so **proximal pole** fractures risk **avascular necrosis** and non-union. Initial films are often normal: immobilize and re-image (or obtain MRI/CT) rather than clear the patient. (Avascular necrosis of the **lunate** is Kienböck disease.)",
+    "references": [
+      "Green's Operative Hand Surgery, 8e — Carpal Fractures"
+    ],
+    "tags": [
+      "scaphoid",
+      "avn"
+    ]
+  }
+]

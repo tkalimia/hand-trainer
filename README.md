@@ -17,8 +17,8 @@ polished dark mode.
 - Updates instantly — you just redeploy.
 - Reuses your CSS design system directly.
 
-The app **shell** is hosted on your NAS (Tailscale HTTPS). The **question bank** lives on
-Dropbox so you can add questions by editing a file.
+The app is hosted on **GitHub Pages** (always-on HTTPS): **https://tkalimia.github.io/hand-trainer/**.
+Questions are authored as per-topic files and can either travel with the app or live on Dropbox.
 
 ---
 
@@ -34,37 +34,80 @@ npm run validate       # lint the sample question bank
 
 ---
 
-## Adding questions (the whole point)
+## Adding questions — organised by topic (the whole point)
 
-Questions live in a single **`questions.json`** file plus an **`images/`** folder. The
-bundled sample is at [`public/bank/`](public/bank/). To add a question, append one object:
+You author questions **one file per topic**, and a single command assembles them into the
+bank the app loads. This keeps each subject self-contained and makes cataloguing topics trivial.
 
-```jsonc
-{
-  "id": "ft-011",                 // unique, lowercase-kebab
-  "topic": "flexor-tendon",       // must match a topic id below
-  "type": "mcq",                  // "mcq" | "multi" | "read"
-  "difficulty": "medium",         // easy | medium | hard  (optional)
-  "stem": "Markdown question text. **Bold** allowed.",
-  "images": [                     // optional
-    { "src": "images/zones.png", "caption": "Verdan zones", "alt": "…" }
-  ],
-  "options": [                    // required for mcq / multi
-    { "text": "Zone II", "correct": true },
-    { "text": "Zone I",  "correct": false }
-  ],
-  "explanation": "Markdown shown after answering.",
-  "references": ["Green's Operative Hand Surgery, 8e"],
-  "tags": ["zones", "anatomy"]
-}
+```
+bank-src/
+  topics.json          ← the TOPIC CATALOG (list/rename/reorder/colour your topics)
+  _TEMPLATE.jsonc      ← the question TEMPLATE — copy blocks from here
+  anatomy.json         ← every "Anatomy" question (a JSON array)
+  flexor-tendon.json   ← every "Flexor Tendon" question
+  nerve.json  fracture.json  soft-tissue.json  …
 ```
 
-- **`type: "read"`** = a text + image study card with no options (for learning new material).
-  It's still scheduled by spaced repetition.
-- Add a new **topic** by adding to the `topics` array: `{ "id": "…", "name": "…", "order": N, "color": "#…" }`.
-- Drop any referenced images into the `images/` folder next to `questions.json`.
-- **Always validate before publishing:** `node scripts/validate-questions.mjs path/to/questions.json`
-  (checks ids are unique, topics resolve, MCQs have exactly one correct answer, etc.).
+### 1. Catalog a topic
+
+Edit [`bank-src/topics.json`](bank-src/topics.json) — add one line to the `topics` array.
+Order in the list = order in the app (Browse, Plan curriculum):
+
+```jsonc
+{ "id": "arthritis", "name": "Arthritis", "color": "#7a4fbb", "description": "Optional note" }
+```
+
+Then create a matching file `bank-src/arthritis.json` (start it as `[]`).
+
+### 2. Prep questions
+
+Open [`bank-src/_TEMPLATE.jsonc`](bank-src/_TEMPLATE.jsonc), copy a block into the topic file,
+fill it in. A topic file is just a JSON **array** of questions. The minimum is a `stem` (+ `options`
+for multiple choice) — **you don't write `topic` or `id`**; the topic comes from the filename and a
+stable `id` is generated from the question text automatically.
+
+```jsonc
+// bank-src/arthritis.json
+[
+  {
+    "type": "mcq",                                  // "mcq" | "multi" | "read"
+    "difficulty": "medium",                         // optional
+    "stem": "Question text. **Markdown** works.",
+    "images": [{ "src": "images/xray.png", "caption": "…" }],   // optional
+    "options": [
+      { "text": "Correct answer", "correct": true },
+      { "text": "Distractor",     "correct": false }
+    ],
+    "explanation": "Shown after answering. Markdown works.",
+    "references": ["Green's Operative Hand Surgery, 8e"]        // optional
+  }
+]
+```
+
+- **`type: "read"`** = a text + image study card with no options — still spaced-repetition scheduled.
+- Drop any referenced images into [`public/bank/images/`](public/bank/images/).
+
+### 3. Assemble + check
+
+```bash
+npm run bank      # merges bank-src/ → public/bank/questions.json, validates everything
+```
+
+It prints a per-topic count and refuses to write if anything is wrong (missing correct answer,
+duplicate id, an `mcq` with two correct options, a topic file not in the catalog, …).
+
+### 4. Publish
+
+```bash
+npm run deploy:pages   # rebuilds the bank + redeploys the live app in one step
+```
+
+> **Using topics in the app:** Browse → tap a topic to drill it; the Plan tab walks the topics
+> in catalog order as a curriculum; Stats shows mastery per topic. All driven by the catalog above.
+
+> **Want to update content without redeploying?** Point the app at Dropbox instead
+> (Settings → Question bank source) and copy the generated `public/bank/questions.json`
+> + `images/` into your Dropbox folder — see below. Otherwise the bundled bank travels with the app.
 
 The JSON schema lives in [`content/schema.json`](content/schema.json).
 
@@ -88,25 +131,23 @@ The bank is cached in the browser, so once synced the app works offline.
 
 ## Deploy to your iPhone
 
+The app is hosted on **GitHub Pages** (always-on HTTPS, no VPN needed):
+
+- **Live:** https://tkalimia.github.io/hand-trainer/
+- **Repo:** https://github.com/tkalimia/hand-trainer
+
 ```bash
-npm run deploy         # build → rsync to NAS → Caddy container → Tailscale HTTPS
+npm run deploy:pages   # assemble bank → build → publish to gh-pages branch
 ```
 
-`scripts/deploy.sh` builds, copies `dist/` to the NAS (`ssh nas`), runs a small Caddy
-static-file container, and exposes it over HTTPS on your tailnet. Override any of
-`NAS_SSH`, `REMOTE_DIR`, `HTTP_PORT`, `TS_HOSTNAME` via env vars.
+Install on the iPhone (once):
 
-Then, **on the iPhone (Tailscale on):**
+1. Open **https://tkalimia.github.io/hand-trainer/** in **Safari**.
+2. Tap **Share → Add to Home Screen → Add**.
+3. Launch **HandTrainer** — full-screen, its own icon, works offline afterward. No VPN needed.
 
-1. Open `https://kalimian.tail953b96.ts.net/` in **Safari**.
-2. Tap **Share → Add to Home Screen**.
-3. Launch it from the Home Screen — full-screen, offline, its own icon.
-
-> One-time manual step if `tailscale serve` can't run over SSH:
-> `ssh nas` then `sudo tailscale serve --bg --https=443 http://127.0.0.1:8096`
->
-> *Alternative host:* the shell is just static files — you can also publish `dist/` to
-> GitHub Pages for always-on HTTPS (the private question bank stays on Dropbox).
+> `scripts/deploy.sh` (NAS + Tailscale HTTPS) is kept as an alternative self-hosted option, but
+> Tailscale HTTPS certificates must be enabled in the admin console for it to work.
 
 ---
 
@@ -134,6 +175,7 @@ src/lib/        contentSource · db (IndexedDB) · srs (FSRS) · session (resume
 src/screens/    Home · Study · Stats · Plan · Browse · Settings
 src/components/  TabBar · Markdown · charts · icons
 src/styles/     app-tokens.css (design system + dark mode + iOS tokens) · app.css
-public/bank/    bundled sample questions.json + images
-scripts/        validate-questions.mjs · deploy.sh · gen-icons (via sips)
+bank-src/       topics.json (catalog) · <topic>.json (per-topic questions) · _TEMPLATE.jsonc
+public/bank/    generated questions.json (via `npm run bank`) + images/
+scripts/        build-bank.mjs · validate-questions.mjs · deploy-pages.sh · deploy.sh
 ```

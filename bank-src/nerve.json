@@ -1,0 +1,77 @@
+[
+  {
+    "id": "nv-001",
+    "type": "mcq",
+    "difficulty": "easy",
+    "stem": "A patient reports numbness of the **thumb, index, middle, and radial half of the ring finger**, worse at night, with a positive Phalen test. Which nerve is compressed, and where?",
+    "images": [
+      {
+        "src": "images/carpal-tunnel.svg",
+        "caption": "Carpal tunnel cross-section",
+        "alt": "Cross-section of the carpal tunnel showing the median nerve and flexor tendons"
+      }
+    ],
+    "options": [
+      {
+        "text": "Median nerve at the carpal tunnel",
+        "correct": true
+      },
+      {
+        "text": "Ulnar nerve at Guyon's canal",
+        "correct": false
+      },
+      {
+        "text": "Median nerve at the pronator teres",
+        "correct": false
+      },
+      {
+        "text": "Radial nerve in the radial tunnel",
+        "correct": false
+      }
+    ],
+    "explanation": "This is classic **carpal tunnel syndrome** — compression of the **median nerve** beneath the transverse carpal ligament. The tunnel contains **9 flexor tendons** (4 FDS, 4 FDP, 1 FPL) plus the median nerve. The **ulnar nerve travels through Guyon's canal**, superficial to the transverse carpal ligament, and is therefore spared.",
+    "references": [
+      "Green's Operative Hand Surgery, 8e — Compression Neuropathies"
+    ],
+    "tags": [
+      "carpal-tunnel",
+      "median"
+    ]
+  },
+  {
+    "id": "nv-002",
+    "type": "multi",
+    "difficulty": "hard",
+    "stem": "A high-energy fracture of the **mid-shaft humerus** injures the radial nerve. Select **all** deficits you would expect. *(Choose every correct option.)*",
+    "options": [
+      {
+        "text": "Wrist drop (loss of wrist extension)",
+        "correct": true
+      },
+      {
+        "text": "Inability to extend the MCP joints",
+        "correct": true
+      },
+      {
+        "text": "Loss of thumb opposition",
+        "correct": false
+      },
+      {
+        "text": "Numbness of the dorsal first web space",
+        "correct": true
+      },
+      {
+        "text": "Clawing of the ring and little fingers",
+        "correct": false
+      }
+    ],
+    "explanation": "The **radial nerve** supplies the wrist and finger extensors, so injury produces **wrist drop** and loss of **MCP extension**, plus sensory loss over the **dorsal first web space**. Thumb **opposition** is a **median** (recurrent motor branch) function, and **clawing** of the ring/little fingers is an **ulnar** nerve sign — neither is caused by radial nerve injury.",
+    "references": [
+      "Green's Operative Hand Surgery, 8e — Radial Nerve"
+    ],
+    "tags": [
+      "radial",
+      "palsy"
+    ]
+  }
+]

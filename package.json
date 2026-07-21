@@ -10,7 +10,8 @@
     "preview": "vite preview --host",
     "validate": "node scripts/validate-questions.mjs public/bank/questions.json",
     "deploy": "bash scripts/deploy.sh",
-    "deploy:pages": "bash scripts/deploy-pages.sh"
+    "deploy:pages": "bash scripts/deploy-pages.sh",
+    "bank": "node scripts/build-bank.mjs"
   },
   "dependencies": {
     "idb": "^8.0.0",

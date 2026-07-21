@@ -1,0 +1,35 @@
+{
+  "title": "Hand Surgery Trainer — Sample Bank",
+  "topics": [
+    {
+      "id": "anatomy",
+      "name": "Anatomy",
+      "color": "#1d4e6b",
+      "description": ""
+    },
+    {
+      "id": "flexor-tendon",
+      "name": "Flexor Tendon",
+      "color": "#2d7a4f",
+      "description": ""
+    },
+    {
+      "id": "nerve",
+      "name": "Nerve",
+      "color": "#8b7355",
+      "description": ""
+    },
+    {
+      "id": "fracture",
+      "name": "Fractures",
+      "color": "#b8710a",
+      "description": ""
+    },
+    {
+      "id": "soft-tissue",
+      "name": "Soft Tissue",
+      "color": "#7a4fbb",
+      "description": ""
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+// ============================================================================
+//  QUESTION TEMPLATE  —  how to prep questions
+// ============================================================================
+//
+//  Each topic is one file:  bank-src/<topic-id>.json
+//  and that file is a JSON ARRAY of question objects like the ones below.
+//  (This .jsonc file is only a reference — the real files end in .json and have
+//   no comments. Copy a block below into a topic file and fill it in.)
+//
+//  You do NOT need to write "topic" (it comes from the file name) or "id"
+//  (it is generated automatically from the question text). Only "stem" and,
+//  for multiple-choice, "options" are required.
+//
+//  After editing, run:   npm run bank      (assembles + checks everything)
+// ----------------------------------------------------------------------------
+
+[
+  // ── 1. Multiple choice (one correct answer) ──────────────────────────────
+  {
+    "type": "mcq",
+    "difficulty": "medium",                       // "easy" | "medium" | "hard"  (optional)
+    "stem": "Your question text. **Markdown** works — bold, lists, etc.",
+    "images": [                                   // optional; drop files in public/bank/images/
+      { "src": "images/my-diagram.png", "caption": "Shown under the image", "alt": "For accessibility" }
+    ],
+    "options": [
+      { "text": "The correct answer", "correct": true },
+      { "text": "A distractor",       "correct": false },
+      { "text": "Another distractor", "correct": false },
+      { "text": "One more",           "correct": false }
+    ],
+    "explanation": "Shown after answering. **Markdown** works. Explain the why.",
+    "references": ["Green's Operative Hand Surgery, 8e"],   // optional
+    "tags": ["keyword", "keyword"]                          // optional
+  },
+
+  // ── 2. Multiple-response (select ALL correct) ────────────────────────────
+  {
+    "type": "multi",
+    "stem": "Select every correct option.",
+    "options": [
+      { "text": "Correct A", "correct": true },
+      { "text": "Correct B", "correct": true },
+      { "text": "Wrong C",   "correct": false }
+    ],
+    "explanation": "Why A and B are right and C is wrong."
+  },
+
+  // ── 3. Read / study card (text + image, no question) ─────────────────────
+  {
+    "type": "read",
+    "stem": "## A heading\n\nA fact or concept to learn. Still scheduled by spaced repetition so it comes back for review.",
+    "images": [{ "src": "images/anatomy.png", "caption": "Optional figure" }],
+    "references": ["Netter, Atlas of Human Anatomy"]
+  }
+
+  // ── Optional: pin a stable id (only if you want to control it yourself) ───
+  // ,{ "id": "ft-custom-01", "type": "mcq", "stem": "...", "options": [...] }
+]

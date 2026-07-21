@@ -1,0 +1,98 @@
+[
+  {
+    "id": "st-001",
+    "type": "mcq",
+    "difficulty": "easy",
+    "stem": "A 60-year-old man of Northern European descent has a painless **firm cord** in the palm and a progressive **flexion contracture** of the ring finger MCP joint. The predominant cell type driving this disease is:",
+    "options": [
+      {
+        "text": "Myofibroblast",
+        "correct": true
+      },
+      {
+        "text": "Osteoblast",
+        "correct": false
+      },
+      {
+        "text": "Chondrocyte",
+        "correct": false
+      },
+      {
+        "text": "Mast cell",
+        "correct": false
+      }
+    ],
+    "explanation": "This is **Dupuytren disease** — a proliferative fibromatosis of the **palmar fascia** driven by **myofibroblasts** (which express α-smooth-muscle actin and generate the contractile force). It most often affects the **ring and little fingers**, causing **MCP and PIP** flexion contractures. The positive tabletop test (inability to lay the hand flat) is a common surgical threshold.",
+    "references": [
+      "Green's Operative Hand Surgery, 8e — Dupuytren"
+    ],
+    "tags": [
+      "dupuytren",
+      "pathology"
+    ]
+  },
+  {
+    "id": "st-002",
+    "type": "mcq",
+    "difficulty": "medium",
+    "stem": "A new mother presents with radial-sided wrist pain and a **positive Finkelstein test**. Which structure is inflamed?",
+    "options": [
+      {
+        "text": "The first dorsal compartment (APL and EPB)",
+        "correct": true
+      },
+      {
+        "text": "The A1 pulley of the thumb",
+        "correct": false
+      },
+      {
+        "text": "The extensor pollicis longus at Lister's tubercle",
+        "correct": false
+      },
+      {
+        "text": "The triangular fibrocartilage complex",
+        "correct": false
+      }
+    ],
+    "explanation": "**De Quervain tenosynovitis** is stenosing tenosynovitis of the **first dorsal compartment**, which contains **APL** and **EPB**. The **Finkelstein / Eichhoff** maneuver (thumb in fist, ulnar deviation) reproduces the pain. First-line care is a thumb spica splint and a corticosteroid injection into the compartment; surgical release is reserved for refractory cases (watch for a septum separating the EPB subsheath).",
+    "references": [
+      "Green's Operative Hand Surgery, 8e — Tendinopathies"
+    ],
+    "tags": [
+      "de-quervain",
+      "tenosynovitis"
+    ]
+  },
+  {
+    "id": "st-003",
+    "type": "mcq",
+    "difficulty": "easy",
+    "stem": "A patient's finger painfully **catches and locks** in flexion, releasing with a snap. Palpation reveals a tender nodule at the distal palm. Surgical treatment releases which structure?",
+    "options": [
+      {
+        "text": "The A1 pulley",
+        "correct": true
+      },
+      {
+        "text": "The A2 pulley",
+        "correct": false
+      },
+      {
+        "text": "The transverse carpal ligament",
+        "correct": false
+      },
+      {
+        "text": "The extensor retinaculum",
+        "correct": false
+      }
+    ],
+    "explanation": "**Trigger finger** (stenosing flexor tenosynovitis) is a size mismatch between the flexor tendon and the **A1 pulley** at the MCP level. Release of the **A1 pulley** is curative. The **A2** pulley must be **preserved** to prevent bowstringing. Non-operative options include a corticosteroid injection into the sheath and splinting.",
+    "references": [
+      "Green's Operative Hand Surgery, 8e — Trigger Finger"
+    ],
+    "tags": [
+      "trigger-finger",
+      "pulley"
+    ]
+  }
+]

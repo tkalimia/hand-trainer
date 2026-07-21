@@ -7,6 +7,9 @@ cd "$(dirname "${BASH_SOURCE[0]}")/.."
 
 REPO="https://github.com/tkalimia/hand-trainer.git"
 
+echo "▸ Assembling question bank from bank-src/…"
+node scripts/build-bank.mjs
+
 echo "▸ Building for GitHub Pages…"
 BASE_PATH=/hand-trainer/ npm run build
 touch dist/.nojekyll

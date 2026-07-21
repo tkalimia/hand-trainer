@@ -1,0 +1,54 @@
+[
+  {
+    "id": "ft-001",
+    "type": "mcq",
+    "difficulty": "medium",
+    "stem": "A laceration over the volar aspect of the **middle phalanx** of the ring finger divides the flexor digitorum profundus. In which flexor tendon zone (Verdan classification) does this injury lie?",
+    "images": [
+      {
+        "src": "images/flexor-zones.svg",
+        "caption": "Verdan flexor tendon zones I–V",
+        "alt": "Diagram of the palmar hand showing flexor tendon zones"
+      }
+    ],
+    "options": [
+      {
+        "text": "Zone I",
+        "correct": false
+      },
+      {
+        "text": "Zone II",
+        "correct": true
+      },
+      {
+        "text": "Zone III",
+        "correct": false
+      },
+      {
+        "text": "Zone IV",
+        "correct": false
+      }
+    ],
+    "explanation": "**Zone II** extends from the distal palmar crease (proximal edge of the A1 pulley) to the insertion of flexor digitorum superficialis (FDS) on the middle phalanx. Within this fibro-osseous sheath the FDS and FDP run together, so repairs here historically had poor outcomes — Bunnell's **\"no man's land.\"** Modern core + epitendinous suture techniques and early active motion have greatly improved results.",
+    "references": [
+      "Green's Operative Hand Surgery, 8e — Flexor Tendon"
+    ],
+    "tags": [
+      "zones",
+      "anatomy"
+    ]
+  },
+  {
+    "id": "ft-002",
+    "type": "read",
+    "difficulty": "easy",
+    "stem": "## Flexor pulley system\n\nThe flexor sheath is reinforced by **annular (A1–A5)** and **cruciate (C1–C3)** pulleys.\n\n- The **A2** (over proximal phalanx) and **A4** (over middle phalanx) pulleys are the most biomechanically important — losing them causes tendon **bowstringing**.\n- The **A1 pulley** at the MCP joint is the site released in **trigger finger** surgery.\n\nPreserve A2 and A4 whenever possible during tendon repair and sheath surgery.",
+    "references": [
+      "Doyle JR. Anatomy of the flexor tendon sheath and pulley system."
+    ],
+    "tags": [
+      "pulleys",
+      "anatomy"
+    ]
+  }
+]

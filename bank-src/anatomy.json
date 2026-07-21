@@ -1,0 +1,41 @@
+[
+  {
+    "id": "an-001",
+    "type": "mcq",
+    "difficulty": "medium",
+    "stem": "How many **dorsal extensor compartments** are there at the wrist, and which tendons occupy the **first** compartment?",
+    "images": [
+      {
+        "src": "images/extensor-compartments.svg",
+        "caption": "Six dorsal extensor compartments at the wrist",
+        "alt": "Cross-section of the dorsal wrist showing six extensor compartments"
+      }
+    ],
+    "options": [
+      {
+        "text": "Six compartments; first contains APL and EPB",
+        "correct": true
+      },
+      {
+        "text": "Four compartments; first contains ECRL and ECRB",
+        "correct": false
+      },
+      {
+        "text": "Six compartments; first contains EPL alone",
+        "correct": false
+      },
+      {
+        "text": "Five compartments; first contains FCR and PL",
+        "correct": false
+      }
+    ],
+    "explanation": "There are **six** dorsal extensor compartments. The **first** contains **abductor pollicis longus (APL)** and **extensor pollicis brevis (EPB)** — the tendons involved in **de Quervain tenosynovitis**. (Compartment 3 holds EPL, which turns around Lister's tubercle; compartment 2 holds ECRL/ECRB.)",
+    "references": [
+      "Netter, Atlas of Human Anatomy — Wrist"
+    ],
+    "tags": [
+      "extensor",
+      "compartments"
+    ]
+  }
+]
