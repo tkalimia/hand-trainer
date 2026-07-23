@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 320" role="img" aria-label="Dorsal extensor compartments">
+  <rect width="360" height="320" fill="#f8f7f4"/>
+  <!-- distal radius/ulna cross section -->
+  <path d="M70 180 q0 -70 110 -74 q120 -4 120 70 q0 40 -30 58 q-90 44 -170 6 q-30 -18 -30 -60Z"
+        fill="#efe9e0" stroke="#1c1c1c" stroke-width="2.5"/>
+  <!-- Lister's tubercle -->
+  <path d="M182 108 l-9 16 l18 0Z" fill="#d9cdb9" stroke="#1c1c1c" stroke-width="1.5"/>
+  <!-- six compartments -->
+  <g stroke="#1d4e6b" stroke-width="1.6" fill="#cddbe4">
+    <ellipse cx="96" cy="150" rx="17" ry="13"/>
+    <ellipse cx="140" cy="126" rx="15" ry="12"/>
+    <ellipse cx="200" cy="122" rx="11" ry="10"/>
+    <ellipse cx="242" cy="132" rx="17" ry="12"/>
+    <ellipse cx="270" cy="168" rx="13" ry="11"/>
+    <ellipse cx="120" cy="196" rx="12" ry="11"/>
+  </g>
+  <g font-family="Heebo, sans-serif" font-weight="700" font-size="13" fill="#1d4e6b">
+    <text x="96" y="154" text-anchor="middle" fill="#0e3348">1</text>
+    <text x="140" y="130" text-anchor="middle" fill="#0e3348">2</text>
+    <text x="200" y="126" text-anchor="middle" fill="#0e3348">3</text>
+    <text x="242" y="136" text-anchor="middle" fill="#0e3348">4</text>
+    <text x="270" y="172" text-anchor="middle" fill="#0e3348">5</text>
+    <text x="120" y="200" text-anchor="middle" fill="#0e3348">6</text>
+  </g>
+  <!-- legend -->
+  <g font-family="Heebo, sans-serif" font-size="12" fill="#3a3a3a">
+    <text x="24" y="250" font-weight="700" fill="#1c1c1c">1 · APL, EPB</text>
+    <text x="150" y="250">3 · EPL (Lister's)</text>
+    <text x="24" y="270">2 · ECRL, ECRB</text>
+    <text x="150" y="270">4 · EDC, EIP</text>
+  </g>
+  <text x="180" y="304" text-anchor="middle" font-family="Heebo, sans-serif" font-size="12" fill="#6b6762">Six dorsal compartments (schematic)</text>
+</svg>
