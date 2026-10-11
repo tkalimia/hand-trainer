@@ -1,0 +1,2054 @@
+{
+  "version": 1,
+  "updatedAt": "2026-10-11",
+  "title": "Hand Surgery Exam Prep",
+  "topics": [
+    {
+      "id": "clasped-thumb",
+      "name": "Clasped thumb",
+      "order": 1,
+      "color": "#8b7355"
+    },
+    {
+      "id": "mock-exam-alef",
+      "name": "מבחן תרגול א׳ — כירורגיה של כף היד",
+      "order": 2,
+      "color": "#3f7cac"
+    }
+  ],
+  "questions": [
+    {
+      "id": "clasped-thumb-646b06",
+      "topic": "clasped-thumb",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem": "A child with a type I clasped thumb is treated with six months of splinting. Which success rates match the age when splinting is started?",
+      "options": [
+        {
+          "text": "First year of life 70%, second year 21%, older than two years none",
+          "correct": true
+        },
+        {
+          "text": "First year of life 21%, second year 70%, older than two years none",
+          "correct": false
+        },
+        {
+          "text": "About 70% at any age, as long as the splint is worn for six months",
+          "correct": false
+        },
+        {
+          "text": "First six months of life 70%, after the first birthday none",
+          "correct": false
+        }
+      ],
+      "explanation": "For a **type I** clasped thumb, **six months of splinting** succeeds in **70%** when it is started in the **first year of life**, in **21%** when it is started in the **second year**, and in **none** when the child is **older than two years**. Six months is the length of splinting, not the age at the start.",
+      "tags": [
+        "clasped-thumb",
+        "type-i",
+        "splint",
+        "age"
+      ]
+    },
+    {
+      "id": "mock-exam-alef-2aeedd",
+      "topic": "mock-exam-alef",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem": "בחולה בריאה המועמדת לשחרור תעלה קרפלית בחסימה מקומית, נשאל האם מותר להוסיף אדרנלין לחסימה דיגיטלית. מה ההלכה כיום?",
+      "options": [
+        {
+          "text": "אסור באופן מוחלט באצבעות בכל מינון",
+          "correct": false
+        },
+        {
+          "text": "מותר; אדרנלין במינון מקובל בטוח באצבעות, והכלל הישן 'ללא אדרנלין באצבע' הופרך",
+          "correct": true
+        },
+        {
+          "text": "מותר רק בגוף ולא בשום איבר היקפי",
+          "correct": false
+        },
+        {
+          "text": "מותר רק אם ממהלים 1:10000 ומזריקים בכמות גדולה",
+          "correct": false
+        }
+      ],
+      "explanation": "מחקרים הראו שאדרנלין (אפינפרין) במינון מקובל ובריכוז סטנדרטי בטוח לשימוש באצבעות, באגודל ובאף — ואף משפר את איכות החסימה ומפחית דימום. המיתוס הישן של 'אסור אדרנלין באצבע' אינו תקף עוד. מוקד הזהירות היחיד הוא מינון יתר או ריכוז גבוה מאוד.",
+      "references": [
+        "Green's 8e — Ch01 Anesthesia (p.14)"
+      ]
+    },
+    {
+      "id": "mock-exam-alef-75fd14",
+      "topic": "mock-exam-alef",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem": "מהו פרק הזמן המרבי המקובל להפעלת חגור אוור (tourniquet) בזרוע במבוגר, לפני שהסיכון לנזק לרכות ולעצב עולה באופן משמעותי?",
+      "options": [
+        {
+          "text": "כ־30 דקות בלבד",
+          "correct": false
+        },
+        {
+          "text": "כ־1.5 עד 2 שעות ברציפות",
+          "correct": true
+        },
+        {
+          "text": "כ־4 עד 5 שעות",
+          "correct": false
+        },
+        {
+          "text": "אין הגבלת זמן כל עוד הלחץ תקין",
+          "correct": false
+        }
+      ],
+      "explanation": "חגור בזרוע נהוג להגביל לכ־1.5–2 שעות רציפות (תלוי לחץ, היקף וגיל); מעבר לכך עולה הסיכון לשפשופים, נמק רקמה רכה ופגיעת עצב. כאב חגור מופיע לרוב לאחר 45–60 דקות.",
+      "references": [
+        "Green's 8e — Ch01 Anesthesia (p.10)"
+      ]
+    },
+    {
+      "id": "mock-exam-alef-0c69b7",
+      "topic": "mock-exam-alef",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem": "אצבע נפוחה בעיגול (fusiform), המוחזקת בכיפוף קל, רגישות לאורך נרתיק הגיד וכאב עז ביישור פסיבי. מה האבחנה, ומה הסימן המוקדם ביותר?",
+      "options": [
+        {
+          "text": "פרוניתשיה; הסימן המוקדם הוא נפיחות",
+          "correct": false
+        },
+        {
+          "text": "זיהום פלמרי עמוק; הסימן המוקדם הוא חום",
+          "correct": false
+        },
+        {
+          "text": "זיהום חריף של נרתיק הגיד המכופף (flexor tenosynovitis); כאב ביישור פסיבי הוא הסימן הרגיש והמוקדם",
+          "correct": true
+        },
+        {
+          "text": "פליגון; הסימן המוקדם הוא אודם",
+          "correct": false
+        }
+      ],
+      "explanation": "ארבעת סימני Kanavel (נפיחות בעיגול, החזקת האצבע בכיפוף, רגישות לאורך הנרתיק, וכאב ביישור פסיבי) מעידים על זיהום נרתיק גיד מכופף — מצב כירורגי דחוף לניקוז ושטיפה. כאב ביישור פסיבי מופיע לרוב ראשון.",
+      "references": [
+        "Green's 8e — Ch02 Acute Infections of the Hand (p.30)"
+      ]
+    },
+    {
+      "id": "mock-exam-alef-b47cfd",
+      "topic": "mock-exam-alef",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem": "עובד סיעודי מציג שלפוחיות מקובצות על בסיס אודמתי בקצה האגודל, עם תחושת צריבה, ללא הפשרה. מה הטיפול?",
+      "options": [
+        {
+          "text": "חיתוך וניקוז מיידי",
+          "correct": false
+        },
+        {
+          "text": "אנטיביוטיקה נגד S. aureus",
+          "correct": false
+        },
+        {
+          "text": "טיפול תומך; אסור לחתוך — מדובר בהרפס ויטלו (herpetic whitlow)",
+          "correct": true
+        },
+        {
+          "text": "כריתת הציפורן וקריעת רצפת הציפורן",
+          "correct": false
+        }
+      ],
+      "explanation": "הרפס ויטלו הוא זיהום ויראלי (HSV) שלפוחיתי; חיתוך אינו מועיל, מאחר את ההחלמה ועלול להפיץ את הנגיף או לגרום זיהום משני. הטיפול תומך, ולעיתים אנטיוירוס. ההבחנה ממקור חיידקי: שלפוחיות מקובצות, תחושת צריבה, וללא מוגלה מערבלת.",
+      "references": [
+        "Green's 8e — Ch02 Acute Infections of the Hand (p.23)"
+      ]
+    },
+    {
+      "id": "mock-exam-alef-95bcc7",
+      "topic": "mock-exam-alef",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem": "בחולה עם מחלת דופיטרן, מהי ההתוויה המובהקת המצדיקה ניתוח (פשיית מיתר / fasciectomy)?",
+      "options": [
+        {
+          "text": "קונטרקטורה של 15° במפרק MCP בלבד",
+          "correct": false
+        },
+        {
+          "text": "קונטרקטורה ב־MCP מעל 30°, או כל קונטרקטורה ב־PIP, או מבחן שולחן חיובי (table-top / Hueston)",
+          "correct": true
+        },
+        {
+          "text": "נודול בלבד ללא מיתר",
+          "correct": false
+        },
+        {
+          "text": "נוכחות משפחתית של דופיטרן בלבד",
+          "correct": false
+        }
+      ],
+      "explanation": "מקובל לנתח כאשר יש קונטרקטורה משמעותית: MCP מעל 30°, כל קונטרקטורה ב־PIP (הפרוגנוזה גרועה יותר ככל שמפגיש את PIP), או מבחן Hueston table-top חיובי. נודול ללא מיתר אינו התווייה לניתוח.",
+      "references": [
+        "Green's 8e — Ch04 Dupuytren Disease (p.181)"
+      ]
+    },
+    {
+      "id": "mock-exam-alef-13363f",
+      "topic": "mock-exam-alef",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem": "בבדיקה היסטולוגית, מה מבדיל מיתר דופיטרן 'בוגר' מנודול פעיל?",
+      "options": [
+        {
+          "text": "המיתר מכיל בעיקר קולגן type I דחוס ופחות תאים; הנודול הפעיל עשיר יותר ב־type III ובמיופיברובלסטים",
+          "correct": true
+        },
+        {
+          "text": "קולגן type II שולט במיתר",
+          "correct": false
+        },
+        {
+          "text": "המיתר עשיר בתאי שומן",
+          "correct": false
+        },
+        {
+          "text": "הנודול מכיל פחות תאים מהמיתר",
+          "correct": false
+        }
+      ],
+      "explanation": "הנודול הפעיל הוא המדף הסלולרי: ריבוי מיופיברובלסטים וקולגן type III. עם ההבגרה הופך המיתר לפחות תאי ובעיקר קולגן type I מסודר — ולכן קשה יותר לשחררו.",
+      "references": [
+        "Green's 8e — Ch04 Dupuytren Disease (p.156)"
+      ]
+    },
+    {
+      "id": "mock-exam-alef-08d0f7",
+      "topic": "mock-exam-alef",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem": "אצבע 'מלקט' (mallet finger) טראומטית ללא תזוזה עצמית משמעותית. מה הטיפול המועדף?",
+      "options": [
+        {
+          "text": "סד לקיבוע DIP ביישור 6–8 שבועות ברציפות",
+          "correct": true
+        },
+        {
+          "text": "ניתוח מיידי לתיקון הגיד המיישר הסופי",
+          "correct": false
+        },
+        {
+          "text": "סד ל־PIP בלבד לשבועיים",
+          "correct": false
+        },
+        {
+          "text": "תרגילי תנועה מוקדמת של DIP",
+          "correct": false
+        }
+      ],
+      "explanation": "מלקט נובע מקריעה או תלישה של רצועת המיישר הסופית מגב P3. כשאין תזוזה עצמית גדולה, טיפול הזהב הוא קיבוע ה־DIP ביישור או היפר־אקסטנסיה באופן רצוף 6–8 שבועות. ניתוח נשקל בשבר עם תזוזה מפרקית גדולה או אי־יציבות.",
+      "references": [
+        "Green's 8e — Ch05 Extensor Tendon Injury (p.195)"
+      ]
+    },
+    {
+      "id": "mock-exam-alef-b61f43",
+      "topic": "mock-exam-alef",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem": "אצבע 'בוטונייר' (boutonnière) המתפתחת אחרי פגיעת הסליפ המרכזי. מה הרצף הפתופיזיולוגי?",
+      "options": [
+        {
+          "text": "קרע הסליפ המרכזי (central slip) בגב PIP — גורם כיפוף PIP ויתר־פשיטה של DIP בעקבות נדידת ה־lateral bands וולארית",
+          "correct": true
+        },
+        {
+          "text": "תלישת FDP מה־DIP",
+          "correct": false
+        },
+        {
+          "text": "קרע ברצועה האלכסונית של לנדסמיר בלבד",
+          "correct": false
+        },
+        {
+          "text": "היצרות של ה־volar plate",
+          "correct": false
+        }
+      ],
+      "explanation": "אובדן הסליפ המרכזי מפחית את מנוף הפשיטה ב־PIP; ה־lateral bands נודדות וולארית ומייצרות מומנט כיפוף ל־PIP ויתר־פשיטה ל־DIP — ומכאן בוטונייר. בטיפול מוקדם — קיבוע ה־PIP ביישור.",
+      "references": [
+        "Green's 8e — Ch05 Extensor Tendon Injury (p.210)"
+      ]
+    },
+    {
+      "id": "mock-exam-alef-24f531",
+      "topic": "mock-exam-alef",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem": "בפגיעת גיד מכופף, באיזה אזור (zone) נמצאת 'ארץ אף־אחד' (no man's land) שבה תיקון ראשוני נחשב מורכב ביותר?",
+      "options": [
+        {
+          "text": "אזור 1 — דיסטלית להיצמדות FDS",
+          "correct": false
+        },
+        {
+          "text": "אזור 2 — מההיצמדות של FDS עד השפה הפרוקסימלית של pulley A2",
+          "correct": true
+        },
+        {
+          "text": "אזור 3 — מעל גוף האצבע",
+          "correct": false
+        },
+        {
+          "text": "אזור 4 — בתעלה הקרפלית",
+          "correct": false
+        }
+      ],
+      "explanation": "Zone II: FDP עובר בתוך מנה של FDS מתחת ל־retinaculum — שטח מגע צר וללא רקמת רופפת, ולכן הידבקות ופגיעה באספקה הדמית הן הסיכון העיקרי. שם נטבע המונח 'no man's land'.",
+      "references": [
+        "Green's 8e — Ch06 Flexor Tendon Injury (p.255)"
+      ]
+    },
+    {
+      "id": "mock-exam-alef-3ee628",
+      "topic": "mock-exam-alef",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem": "כדי למנוע תופעת 'קשת' (bowstringing) לאחר תיקון גיד מכופף, אילו פולי (pulleys) קריטי לשמר?",
+      "options": [
+        {
+          "text": "A1 ו־A3",
+          "correct": false
+        },
+        {
+          "text": "A2 ו־A4",
+          "correct": true
+        },
+        {
+          "text": "C1 ו־C2",
+          "correct": false
+        },
+        {
+          "text": "A5 בלבד",
+          "correct": false
+        }
+      ],
+      "explanation": "הפולי A2 (על הפלאנקס המקורב) ו־A4 (על הפלאנקס המרכזי) הם העיקריים המונעים bowstringing; חיתוכם פוגע קשות בביומכניקה. את A1, A3 והפולי המפרקיים ניתן לפצל בעת הצורך.",
+      "references": [
+        "Green's 8e — Ch06 Flexor Tendon Injury (p.222)"
+      ]
+    },
+    {
+      "id": "mock-exam-alef-a0b947",
+      "topic": "mock-exam-alef",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem": "שחקן ראגבי מציג חולשת כיפוף DIP באצבע הרביעית לאחר 'תפיסה' של חולצת היריב. מהו המבנה שהתלש, וכיצד מסווגות רמות הפגיעה?",
+      "options": [
+        {
+          "text": "תלישת FDP מגב P3 — סיווג Leddy–Packer",
+          "correct": true
+        },
+        {
+          "text": "קרע ב־central slip",
+          "correct": false
+        },
+        {
+          "text": "תלישת FDS",
+          "correct": false
+        },
+        {
+          "text": "קרע ברצועה הקולטרלית",
+          "correct": false
+        }
+      ],
+      "explanation": "'ג'רזי פינגר' הוא תלישת FDP מנקודת אחיזתו, שכיח באצבע הקמיצה בזמן כפייה פסיבית פתאומית של ה־DIP. סיווג Leddy–Packer: דרגה I — מתיחה; II — שקיעה גנגליונית; III — שבר רעף קטן; IV — שבר גדול או תלישה דיסטלית; V — אביבציה וולארית. דרגות II–V דורשות לרוב תיקון.",
+      "references": [
+        "Green's 8e — Ch06 Flexor Tendon Injury (p.230)"
+      ]
+    },
+    {
+      "id": "mock-exam-alef-894c6d",
+      "topic": "mock-exam-alef",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem": "בשבר צוואר המסרק החמישי (boxer's fracture) המטופל שמרנית, איזה עיוות אסור להשאיר מפני שאינו מסתגל?",
+      "options": [
+        {
+          "text": "זווית פלמרית (volar angulation) במסרק 5",
+          "correct": false
+        },
+        {
+          "text": "רוטציה (סיבוב) הגורמת חפיפת אצבעות (scissoring)",
+          "correct": true
+        },
+        {
+          "text": "קיצור קל",
+          "correct": false
+        },
+        {
+          "text": "תזוזה צידדית",
+          "correct": false
+        }
+      ],
+      "explanation": "רוטציה אינה מתקנת מעצמה ומייצרת חפיפה (scissoring) של האצבעות בעת גיפוף — לכן יש לזהותה (Neviaser rotation test) ולתקנה. לעומת זאת, זווית פלמרית במסרק 4–5 נסבלת, כי המסרק הנייד מפצה עליה.",
+      "references": [
+        "Green's 8e — Ch07 Fractures of the Metacarpals and Phalanges (p.266)"
+      ]
+    },
+    {
+      "id": "mock-exam-alef-33ca49",
+      "topic": "mock-exam-alef",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem": "במדידת זווית (angulation) במסרקים, מהו העקרון המקובל לגבי מידת הסבלה?",
+      "options": [
+        {
+          "text": "כל זווית דורשת ORIF",
+          "correct": false
+        },
+        {
+          "text": "ככל שהמסרק דיסטלי יותר (4–5) מותרת זווית פלמרית גדולה יותר, בשל ניידות המסרקים הניידים",
+          "correct": true
+        },
+        {
+          "text": "זווית נסבלת יותר במסרק 2–3",
+          "correct": false
+        },
+        {
+          "text": "אין משמעות לכיוון הזווית",
+          "correct": false
+        }
+      ],
+      "explanation": "למסרקים 4 ו־5 יש ניידות מפרקית רבה יותר, ולכן הם מפצים על זווית פלמרית. במסרקים 2–3, הפחות ניידים והמשתתפים בקשת המרוחבת, אפילו זווית קטנה פוגעת תפקודית — ולכן נדרשת הקפדה.",
+      "references": [
+        "Green's 8e — Ch07 Fractures of the Metacarpals and Phalanges (p.304)"
+      ]
+    },
+    {
+      "id": "mock-exam-alef-1105b7",
+      "topic": "mock-exam-alef",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem": "בפגיעת 'גייםקיפר' של האגודל (קרע RCL במפרק MCP של האגודל), איזה ממצא מחייב תיקון כירורגי?",
+      "options": [
+        {
+          "text": "כאב מקומי",
+          "correct": false
+        },
+        {
+          "text": "ממצא Stener — אפונרוזת ה־adductor pollicis הכלואה בין קצוות הרצועה",
+          "correct": true
+        },
+        {
+          "text": "חולשה קלה",
+          "correct": false
+        },
+        {
+          "text": "נפיחות",
+          "correct": false
+        }
+      ],
+      "explanation": "בקריעה מלאה עם ממצא Stener חוסמת אפונרוזת האדוקטור את הקצה הפרוקסימלי של ה־RCL ומונעת ממנו לחזור למקומו — ולכן ריפוי שמרני לא יצלח; נדרש תיקון פתוח. קריעה חלקית ללא Stener — גבס או סד.",
+      "references": [
+        "Green's 8e — Ch08 Dislocations and Ligament Injuries of the Digits (p.348)"
+      ]
+    },
+    {
+      "id": "mock-exam-alef-d1a43b",
+      "topic": "mock-exam-alef",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem": "פגיעת volar plate של מפרק PIP — מה הממצא האופייני בבדיקה?",
+      "options": [
+        {
+          "text": "חוסר יציבות רקולטרלית בלבד",
+          "correct": false
+        },
+        {
+          "text": "יתר־פשיטה (hyperextension / recurvatum) של PIP, מוגבר ב־anterior drawer",
+          "correct": true
+        },
+        {
+          "text": "אובדן תחושה",
+          "correct": false
+        },
+        {
+          "text": "מבחן piano-key חיובי",
+          "correct": false
+        }
+      ],
+      "explanation": "ה־volar plate מונעת היפר־אקסטנסיה של ה־PIP; קריעתה או מתיחתה גורמות recurvatum וכאב. בדרגה קלה — buddy taping; במידת אי־יציבות או תזוזה — תיקון.",
+      "references": [
+        "Green's 8e — Ch08 Dislocations and Ligament Injuries of the Digits (p.340)"
+      ]
+    },
+    {
+      "id": "mock-exam-alef-5016a6",
+      "topic": "mock-exam-alef",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem": "בפרוניתשיה חריפה עם אגן מוגבל בין ה־nail ל־eponychium, מהי הטכניקה המועדפת?",
+      "options": [
+        {
+          "text": "כריתת ציפורן מלאה וקריעת ה־germinal matrix",
+          "correct": false
+        },
+        {
+          "text": "ניקוז על ידי הרמת או הפרדת בסיס ה־nail מה־ridge, ללא פגיעה במטריצה",
+          "correct": true
+        },
+        {
+          "text": "אמפוטציה של האצבע",
+          "correct": false
+        },
+        {
+          "text": "סד בלבד",
+          "correct": false
+        }
+      ],
+      "explanation": "בפרוניתשיה עם אבצס יש לנקז — לרוב בהרמת שבר או הפרדת הציפורן מה־ridge הדרסלי־צדדי, או דרך ה־nail — מבלי לפגוע ב־germinal matrix או ב־eponychium, כדי למנוע עיוות ציפורן. אנטיביוטיקה משלימה במידת הצורך.",
+      "references": [
+        "Green's 8e — Ch09 The Perionychium (p.383)"
+      ]
+    },
+    {
+      "id": "mock-exam-alef-4934e6",
+      "topic": "mock-exam-alef",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem": "באוסטאוארתריטיס מתקדם של מפרק ה־CMC (בסיס האגודל) שנכשל בטיפול שמרני, מהו הטיפול הכירורגי הסטנדרטי?",
+      "options": [
+        {
+          "text": "החלפה מלאה בסיליקון בלבד",
+          "correct": false
+        },
+        {
+          "text": "Trapeziectomy עם LRTI (שחזור רצועה + interposition של גיד), או ארתרודיזה של CMC",
+          "correct": true
+        },
+        {
+          "text": "שחרור A1",
+          "correct": false
+        },
+        {
+          "text": "ארתרודיזה של PIP",
+          "correct": false
+        }
+      ],
+      "explanation": "עבודת הזהב היא trapeziectomy (הסרת הטראפזיום) עם שחזור או הושטת רצועה (לרוב FCU) — LRTI; חלופה: ארתרודיזת CMC. החלפות סיליקון ננטשות לרוב בשל שקיעה או פריקה. יש להיזהר משימוש יתר בכוח.",
+      "references": [
+        "Green's 8e — Ch11 Treatment of the Osteoarthritic Hand and Thumb (p.424)"
+      ]
+    },
+    {
+      "id": "mock-exam-alef-f3521f",
+      "topic": "mock-exam-alef",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem": "כיצד מבצעים את מבחן 'scaphoid shift' (Watson) להערכת יציבות סקפו־לוניאית (SL)?",
+      "options": [
+        {
+          "text": "לחיצה על בליטת הסקפויד (tubercle) והעברת שורש היד מהטיה רדיאלית ל־אולארית; 'קליק' וכאב = חיובי",
+          "correct": true
+        },
+        {
+          "text": "משיכה אקסית של האולנה",
+          "correct": false
+        },
+        {
+          "text": "הפעלת varus במרפק",
+          "correct": false
+        },
+        {
+          "text": "לחיצה על ה־hook of hamate",
+          "correct": false
+        }
+      ],
+      "explanation": "במבחן Watson מניחים אצבע על ה־scaphoid tubercle, ונעים רדיאלית־לאולארית תחת לחץ — כשה־SL קרוע, הקוטב הפרוקסימלי 'קופץ' חזרה (clunk) מלווה בכאב. רגישות גבוהה, אך נדרשים אימות והשוואה לצד השני.",
+      "references": [
+        "Green's 8e — Ch13 Carpal Instability (p.509)"
+      ]
+    },
+    {
+      "id": "mock-exam-alef-65890b",
+      "topic": "mock-exam-alef",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem": "להערכת יציבות המפרק הרדיו־אולנרי הדיסטלי (DRUJ), אילו בדיקות מבצעים?",
+      "options": [
+        {
+          "text": "מבחן Grind של CMC",
+          "correct": false
+        },
+        {
+          "text": "ballottement, piano-key test ו־shuck",
+          "correct": true
+        },
+        {
+          "text": "Phalen",
+          "correct": false
+        },
+        {
+          "text": "Finkelstein",
+          "correct": false
+        }
+      ],
+      "explanation": "יציבות DRUJ נבדקת ב־ballottement (דחיפת ראש האולנה פלמרית ודורסלית), ב־piano-key (הרגת האולנה ושחרורה) ו־בshuck. רגישות או תזוזה מעידות על חוסר יציבות, לרוב עם פגיעת TFCC או שבר גליאצי.",
+      "references": [
+        "Green's 8e — Ch14 The Distal Radioulnar Joint (p.568)"
+      ]
+    },
+    {
+      "id": "mock-exam-alef-dc63c6",
+      "topic": "mock-exam-alef",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem": "בצילום AP ולטרל של שורש היד לאחר שבר דיסטלי של הרדיוס, אילו מדדים אנטומיים מנחים החלטה על יציבות וצורך בניתוח?",
+      "options": [
+        {
+          "text": "גיל המטופל בלבד",
+          "correct": false
+        },
+        {
+          "text": "אורך הרדיוס (radial height/shortening), זווית ולארית או דורסלית (volar/dorsal tilt), ו־step-off מפרקי",
+          "correct": true
+        },
+        {
+          "text": "רוחב האולנה",
+          "correct": false
+        },
+        {
+          "text": "זווית הקפל בלבד",
+          "correct": false
+        }
+      ],
+      "explanation": "קריטריונים לרדוקציה לא־מספקת: אובדן גובה רדיאלי (מעל 5 מ״מ), dorsal tilt, step-off מפרקי מעל 2 מ״מ, radial widening, ו־מעורבות DRUJ. מדדים אלה מנבאים כשלון של טיפול שמרני.",
+      "references": [
+        "Green's 8e — Ch15 Distal Radius Fractures (p.604)"
+      ]
+    },
+    {
+      "id": "mock-exam-alef-a406cb",
+      "topic": "mock-exam-alef",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem": "שבר דיסטלי של הרדיוס עם וריאנס אולארי חיובי (אולנה ארוכה) — מה המשמעות?",
+      "options": [
+        {
+          "text": "ייצוב מלא של DRUJ",
+          "correct": false
+        },
+        {
+          "text": "עומס יתר על DRUJ ועל ה־TFCC, פגיעה אולנו־קרפלית, ופחות יציבות לאחר רדוקציה",
+          "correct": true
+        },
+        {
+          "text": "אין משמעות",
+          "correct": false
+        },
+        {
+          "text": "מבטיח התאחות מהירה",
+          "correct": false
+        }
+      ],
+      "explanation": "מעבר מ־negative ל־positive ulnar variance מעביר עומס לצד האולרי, פוגע ב־DRUJ וב־TFCC, ולרוב מעיד על אובדן אורך רדיאלי — לכן משקפים גם את הצד הנגדי להשוואה. תיקון אורך הרדיוס מחזיר וריאנס תקין.",
+      "references": [
+        "Green's 8e — Ch15 Distal Radius Fractures (p.611)"
+      ]
+    },
+    {
+      "id": "mock-exam-alef-bd4db1",
+      "topic": "mock-exam-alef",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem": "בשבר סקפואיד, איזו ספיגת דם מסבירה התאחות לקויה ונמק (AVN) דווקא בקוטב הפרוקסימלי?",
+      "options": [
+        {
+          "text": "אספקה רטרוגראדית: כלי הדם נכנסים דיסטלית וזורמים פרוקסימלית",
+          "correct": true
+        },
+        {
+          "text": "אספקה ישירה מהקוטב הפרוקסימלי בלבד",
+          "correct": false
+        },
+        {
+          "text": "אספקה מהעורק האולארי",
+          "correct": false
+        },
+        {
+          "text": "אין משמעות לכיוון הזרימה",
+          "correct": false
+        }
+      ],
+      "explanation": "ענפים של העורק הרדיאלי (בעיקר דורסליים) חודרים לקוטב הדיסטלי ולאזור המותניים וזורמים רטרוגראדית; ולכן שבר במותן או בפרוקסימלי מנתק את אספקת הדם מהקוטב הפרוקסימלי — נמק והתאחות לקויה.",
+      "references": [
+        "Green's 8e — Ch16 Fractures of the Carpal Bones (p.695)"
+      ]
+    },
+    {
+      "id": "mock-exam-alef-f80978",
+      "topic": "mock-exam-alef",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem": "במחלת Kienböck (נמק אווסקולרי של הלונאט), מהו גורם הסיכון האנטומי המרכזי?",
+      "options": [
+        {
+          "text": "ווריאנס אולארי שלילי (אולנה קצרה)",
+          "correct": true
+        },
+        {
+          "text": "אורך אולנה תקין בלבד",
+          "correct": false
+        },
+        {
+          "text": "שבר טריקוטרום",
+          "correct": false
+        },
+        {
+          "text": "פגיעת עצב",
+          "correct": false
+        }
+      ],
+      "explanation": "negative ulnar variance מגביר עומס מכני ישיר (impaction) על הלונאט ומזוהה כגורם מרכזי בהתפתחות Kienböck. הסיווג הוא לפי Lichtman (שלבי הקריסה), והטיפול תלוי שלב ויציבות: off-loading, PRC, או ארתרודיזה.",
+      "references": [
+        "Green's 8e — Ch16 Fractures of the Carpal Bones (p.742)"
+      ]
+    },
+    {
+      "id": "mock-exam-alef-30a7c3",
+      "topic": "mock-exam-alef",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem": "בחולית nonunion של סקפואיד עם סימני AVN בקוטב הפרוקסימלי, מהי הגישה הטיפולית?",
+      "options": [
+        {
+          "text": "גבס ממושך בלבד",
+          "correct": false
+        },
+        {
+          "text": "קיבוע + השתלת עצם, ולעיתים graft וסקולרי (pedicled 1,2-ICSRA / Zaidemberg)",
+          "correct": true
+        },
+        {
+          "text": "הסרת הסקפואיד בלבד",
+          "correct": false
+        },
+        {
+          "text": "ארתרודיזה מיידית של כל שורש היד",
+          "correct": false
+        }
+      ],
+      "explanation": "nonunion עם AVN דורש קיבוע יציב (בורג) והשתלת עצם; כשיש נמק, graft וסקולרי (pedicled 1,2-ICSRA מהמחלק הרדיאלי הגבי) משפר את ההישרדות. בשלב עמק (SNAC) — PRC או four-corner.",
+      "references": [
+        "Green's 8e — Ch16 Fractures of the Carpal Bones (p.721)"
+      ]
+    },
+    {
+      "id": "mock-exam-alef-7d8fa0",
+      "topic": "mock-exam-alef",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem": "בטיפול ב־Monteggia (שבר אולנה מקורב עם תת־לוקסציה של ראש הרדיוס), לאחר קיבוע האולנה ראש הרדיוס נשאר לא מיושר. מה השכיח ביותר?",
+      "options": [
+        {
+          "text": "עיוות או מל־אליינמנט של האולנה",
+          "correct": true
+        },
+        {
+          "text": "לכידת PIN",
+          "correct": false
+        },
+        {
+          "text": "קיבוע יתר",
+          "correct": false
+        },
+        {
+          "text": "אנטומיה תקינה של ה־annular ligament",
+          "correct": false
+        }
+      ],
+      "explanation": "הרדוקציה של הרדיוקפיטלר מתקבלת רק כשהאולנה מקובלת ביישור מלא; זווית או קיצור של האולנה (מל־אליינמנט), או interposition של רקמה רכה, מונעים רדוקציה — יש לוודא יישור וקיבוע של האולנה ואז לבדוק תחת הרדמה או בפתיחה.",
+      "references": [
+        "Green's 8e — Ch20 Fractures of the Proximal Ulna (p.939)"
+      ]
+    },
+    {
+      "id": "mock-exam-alef-4b4831",
+      "topic": "mock-exam-alef",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem": "בשבר 'גליאצי' (Galeazzi) — שבר בשליש הדיסטלי של הרדיוס עם פתיחת DRUJ, מהו הטיפול הסטנדרטי?",
+      "options": [
+        {
+          "text": "גבס בלבד",
+          "correct": false
+        },
+        {
+          "text": "ORIF של הרדיוס + ייצוב או תיקון DRUJ (תיקון TFCC וקיבוע)",
+          "correct": true
+        },
+        {
+          "text": "הסרת ראש הרדיוס",
+          "correct": false
+        },
+        {
+          "text": "ארתרודיזה מיידית",
+          "correct": false
+        }
+      ],
+      "explanation": "Galeazzi הוא fracture-dislocation עם נטייה חזקה לכשל בטיפול שמרני; נדרש ORIF יציב של הרדיוס ואימות יציבות ה־DRUJ (תיקון TFCC וקיבוע במנח ניטרלי או סופינציה).",
+      "references": [
+        "Green's 8e — Ch21 Disorders of the Forearm (p.955)"
+      ]
+    },
+    {
+      "id": "mock-exam-alef-9b706d",
+      "topic": "mock-exam-alef",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem": "בילד עם כיפוף 'פלסטי' (plastic deformation / bowing) של הרדיוס והאולנה ללא סדק, מה הטיפול?",
+      "options": [
+        {
+          "text": "מעקב בלבד — יתיישר לבד",
+          "correct": false
+        },
+        {
+          "text": "רדוקציה (לעיתים תחת הרדמה) וקיבוע — עיוות פלסטי אינו מסתגל",
+          "correct": true
+        },
+        {
+          "text": "החלפת מרפק",
+          "correct": false
+        },
+        {
+          "text": "הזרקת סטרואידים",
+          "correct": false
+        }
+      ],
+      "explanation": "עיוות פלסטי של עצמות האמה אינו עובר remodeling (אין מישור שבר); יש ליישר (closed reduction) ולקבע. אי־יישור משאיר הגבלת סיבוב (פרונציה/סופינציה).",
+      "references": [
+        "Green's 8e — Ch21 Disorders of the Forearm (p.963)"
+      ]
+    },
+    {
+      "id": "mock-exam-alef-dbc7d7",
+      "topic": "mock-exam-alef",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem": "כיצד מבצעים בדיקה פיזיקלית לחוסר יציבות פוסטרו־לטרלי (PLRI) של המרפק?",
+      "options": [
+        {
+          "text": "Drawer קדמי במרפק 90°",
+          "correct": false
+        },
+        {
+          "text": "זרוע באבדוקציה, אמה בסופינציה, עומס varus וכוח אקסיאלי בעת כיפוף — משחזר את ה־pivot shift",
+          "correct": true
+        },
+        {
+          "text": "מבחן Grind",
+          "correct": false
+        },
+        {
+          "text": "מבחן Finkelstein",
+          "correct": false
+        }
+      ],
+      "explanation": "PLRI נובעת מכשל של ה־LCL (בעיקר RCL וה־annular ligament) — נבדקת ב־lateral pivot shift: varus ועומס אקסיאלי בסופינציה תוך כיפוף, המעידים על תת־לוקסציה פוסטרו־לטרלית עם 'קליק' חזרה.",
+      "references": [
+        "Green's 8e — Ch23 Chronic Elbow Instability (p.994)"
+      ]
+    },
+    {
+      "id": "mock-exam-alef-00dc59",
+      "topic": "mock-exam-alef",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem": "בטיפול כירורגי ב'מרפק טניס' כרוני (lateral epicondylitis) שנכשל לאחר 6–12 חודשי טיפול שמרני, מהו ההליך?",
+      "options": [
+        {
+          "text": "הסרת ראש הרדיוס",
+          "correct": false
+        },
+        {
+          "text": "שחרור ודה־בריידמנט של מקור ECRB (Nirschl) — פתוח או ארתרוסקופי, בשמירה על RCL/LCL",
+          "correct": true
+        },
+        {
+          "text": "אפיקונדילקטומיה מדיאלית",
+          "correct": false
+        },
+        {
+          "text": "העברת גיד",
+          "correct": false
+        }
+      ],
+      "explanation": "המוקד הוא רקמת אנגיו־בלאסטיה של מקור ECRB; שיטת Nirschl היא שחרור eccentric ודה־בריידמנט של הרקמה הפתולוגית. קריטי לשמור על ה־RCL/LCL המקורב מדיסטלית לאפיקונדילוס כדי למנוע PLRI.",
+      "references": [
+        "Green's 8e — Ch25 Elbow Tendinopathies and Tendon Ruptures (p.1044)"
+      ]
+    },
+    {
+      "id": "mock-exam-alef-d0e319",
+      "topic": "mock-exam-alef",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem": "בהחלפת מרפק מלאה (TEA), מי המועמד המתאים?",
+      "options": [
+        {
+          "text": "ספורטאי צעיר עם כאב קל",
+          "correct": false
+        },
+        {
+          "text": "מטופל בדרישת כוח נמוכה (low demand) עם RA, nonunion של ההומרוס הדיסטלי, חוסר עצם או אי־יציבות",
+          "correct": true
+        },
+        {
+          "text": "מרפק יציב עם נוקשות קלה בלבד",
+          "correct": false
+        },
+        {
+          "text": "עובד כפיים",
+          "correct": false
+        }
+      ],
+      "explanation": "TEA (linked, semi-constrained) מציעה החלפה מצוינית אך מוגבלת בכוח (limit סביב 25 lb); מומלצת ב־RA, nonunion וחוסר עצם — בעיקר במבוגרים low demand. נמנעים מצעירים ומעבודה כבדה בשל רפיון או שבר סביב השתל.",
+      "references": [
+        "Green's 8e — Ch27 Total Elbow Arthroplasty (p.1070)"
+      ]
+    },
+    {
+      "id": "mock-exam-alef-acc0dd",
+      "topic": "mock-exam-alef",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem": "מהו המיקום השכיח ביותר לתסמונת מעץ אולארי (ulnar neuropathy)?",
+      "options": [
+        {
+          "text": "תעלת Guyon בשורש",
+          "correct": false
+        },
+        {
+          "text": "התעלה או הסולקוס האולנרי במרפק (cubital tunnel)",
+          "correct": true
+        },
+        {
+          "text": "התעלה הקרפלית",
+          "correct": false
+        },
+        {
+          "text": "PIN",
+          "correct": false
+        }
+      ],
+      "explanation": "המיקום הנפוץ ביותר להיצרות אולארית הוא מאחורי או בתוך ה־cubital tunnel במרפק. לכן ירידה בתחושה בעור גב היד ( dorsal cutaneous branch, שמתפצל מעל Guyon) מצביעה על פגיעה ברמת המרפק ולא בשורש.",
+      "references": [
+        "Green's 8e — Ch28 Compression Neuropathies (p.1087)"
+      ]
+    },
+    {
+      "id": "mock-exam-alef-2c8945",
+      "topic": "mock-exam-alef",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem": "בתסמונת תעלה רדיאלית (radial tunnel syndrome), מהו מוקד הלחץ השכיח ביותר?",
+      "options": [
+        {
+          "text": "השפה הפיברוטית הפרוקסימלית של ה־supinator (arcade of Frohse)",
+          "correct": true
+        },
+        {
+          "text": "תעלת Guyon",
+          "correct": false
+        },
+        {
+          "text": "ה־retinaculum הכופף",
+          "correct": false
+        },
+        {
+          "text": "ה־APL/EPL",
+          "correct": false
+        }
+      ],
+      "explanation": "ה־PIN והעצב הרדיאלי נלחצים לרוב ב־arcade of Frohse — השפה הפיברוטית של שריר ה־supinator; גורמים נוספים: קשת של ECRB, 'leash of Henry', והשפה השריר־גידית. radial tunnel גורם בעיקר לכאב, ו־PIN palsy — לחולשה.",
+      "references": [
+        "Green's 8e — Ch28 Compression Neuropathies (p.1115)"
+      ]
+    },
+    {
+      "id": "mock-exam-alef-d830fe",
+      "topic": "mock-exam-alef",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem": "בתעלת Guyon, פגיעה ב־'Zone 2' גורמת ל:",
+      "options": [
+        {
+          "text": "פגיעה תחושית בלבד",
+          "correct": false
+        },
+        {
+          "text": "פגיעת הענף המוטורי העמוק (deep motor) בלבד — ללא הפרעת תחושה",
+          "correct": true
+        },
+        {
+          "text": "שילוב מוטורי ותחושתי",
+          "correct": false
+        },
+        {
+          "text": "פגיעה בעצב המדיאלי",
+          "correct": false
+        }
+      ],
+      "explanation": "ב־Guyon: Zone 1 = העצב המעורב (מוטורי ותחושתי), Zone 2 = הענף העמוק המוטורי בלבד (בין ה־hook of hamate ל־FCB), Zone 3 = הענף השטחי התחושתי בלבד. חולשת interossei ואגודל ללא נימול = Zone 2.",
+      "references": [
+        "Green's 8e — Ch28 Compression Neuropathies (p.1103)"
+      ]
+    },
+    {
+      "id": "mock-exam-alef-8a6ac2",
+      "topic": "mock-exam-alef",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem": "סימן Wartenberg חיובי (נטיית הזרת להרחקה / abduction) נובע מחולשת:",
+      "options": [
+        {
+          "text": "ה־abductor pollicis",
+          "correct": false
+        },
+        {
+          "text": "הבין־עצמי הפלמרי השלישי (3rd palmar interosseous) המוצד באולנרי",
+          "correct": true
+        },
+        {
+          "text": "ה־lumbrical הראשון",
+          "correct": false
+        },
+        {
+          "text": "FDP של הזרת",
+          "correct": false
+        }
+      ],
+      "explanation": "Wartenberg הוא היעדר adduction של האצבע הקטנה בשל חולשת ה־3rd palmar interosseous (אולנרי), כך שה־ADM גורר אותה לאבדוקציה — סימן מוקדם לפגיעה אולארית.",
+      "references": [
+        "Green's 8e — Ch28 Compression Neuropathies (p.1105)"
+      ]
+    },
+    {
+      "id": "mock-exam-alef-0cbc17",
+      "topic": "mock-exam-alef",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem": "בחסימה בתעלה קרפלית, איזו תחושה נשמרת בכף היד, ומדוע?",
+      "options": [
+        {
+          "text": "תחושה לאגודל — עצב אולנרי",
+          "correct": false
+        },
+        {
+          "text": "תחושה לעור כף היד (palmar cutaneous branch) — הסניף יוצא פרוקסימלית ל־retinaculum ועובר מעליו",
+          "correct": true
+        },
+        {
+          "text": "הכול אבוד",
+          "correct": false
+        },
+        {
+          "text": "תחושה דורסלית בלבד",
+          "correct": false
+        }
+      ],
+      "explanation": "ה־palmar cutaneous branch של העצב המדיאלי מסתעף פרוקסימלית לתעלה ועובר מעל או דרך הרטינקולום — ולכן תחושה במרכז כף היד נשמרת גם בתסמונת תעלה קרפלית כבדה. הענף החוזר המוטורי (recurrent) הוא זה שמאיים על ה־thenar.",
+      "references": [
+        "Green's 8e — Ch28 Compression Neuropathies (p.1098)"
+      ]
+    },
+    {
+      "id": "mock-exam-alef-5e4fb6",
+      "topic": "mock-exam-alef",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem": "בתסמונת מוצא בית החזה (TOS), איזו צורה מזוהה בעיקר עם וריאנט גרמי (צלע צווארית) ועם סיכון לאנאוריזמה ואמבולי עורקיים?",
+      "options": [
+        {
+          "text": "נוירוגנית",
+          "correct": false
+        },
+        {
+          "text": "עורקית (arterial TOS)",
+          "correct": true
+        },
+        {
+          "text": "ורידית",
+          "correct": false
+        },
+        {
+          "text": "אין הקשר",
+          "correct": false
+        }
+      ],
+      "explanation": "Arterial TOS קשורה במידה גבוהה לצלע צווארית או לתהליך טרנסוורסרי מוגדל של C7, הגורמים לדחיסת העורק התת־מצלפי — עם אנאוריזמה, פוסט־סטנוזיס ואמבולי דיגיטליים (הופעה 'כחולה/קרה'). מחייבת שחרור ותיקון כלי דם.",
+      "references": [
+        "Green's 8e — Ch29 Thoracic Outlet Compression Syndrome (p.1128)"
+      ]
+    },
+    {
+      "id": "mock-exam-alef-d87f0b",
+      "topic": "mock-exam-alef",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem": "בניתוח שחרור TOS עם scalenectomy וסילוק הצלע הראשונה, איזה עצב בולט בסיכון לפגיעה בעת דיסקציית הסקלן הקדמי?",
+      "options": [
+        {
+          "text": "Long thoracic",
+          "correct": false
+        },
+        {
+          "text": "העצב הפרניק (phrenic)",
+          "correct": true
+        },
+        {
+          "text": "Dorsal scapular",
+          "correct": false
+        },
+        {
+          "text": "Intercostobrachial",
+          "correct": false
+        }
+      ],
+      "explanation": "העצב הפרניק עובר על הפנים הקדמיות של m. scalenus anterior; פגיעתו גורמת לשיתוק סרעף. לכן זיהויו והגנתו הם עקרון מנחה. בנוסף שומרים על ה־long thoracic (כנף שריקה) ועל C8/T1.",
+      "references": [
+        "Green's 8e — Ch29 Thoracic Outlet Compression Syndrome (p.1141)"
+      ]
+    },
+    {
+      "id": "mock-exam-alef-d3b56d",
+      "topic": "mock-exam-alef",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem": "בתיקון פער (gap) בעצב היקפי, מהי טכניקת הזהב לשחזור רציפות?",
+      "options": [
+        {
+          "text": "קיבוע בברגים",
+          "correct": false
+        },
+        {
+          "text": "השתלת עצב (interposition nerve graft), לרוב עצב סוראל — ללא מתח (tension-free)",
+          "correct": true
+        },
+        {
+          "text": "תפר ישיר תחת מתח",
+          "correct": false
+        },
+        {
+          "text": "השתלת סיליקון",
+          "correct": false
+        }
+      ],
+      "explanation": "כאשר אי אפשר לחבר ללא מתח, מבצעים nerve graft (סוראל כסטנדרט, או anterior interosseous) בשכבות ובמסלול, ללא מתח ובטכניקת מיקרו עדינה; תפר תחת מתח מוביל לכשל. קונוויט (conduit) והעברות הן חלופות נוספות.",
+      "references": [
+        "Green's 8e — Ch30 Nerve Repair (p.1167)"
+      ]
+    },
+    {
+      "id": "mock-exam-alef-abf475",
+      "topic": "mock-exam-alef",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem": "לאובדן אופוזיציה של האגודל (פגיעת מדיאלי או אולנרי), איזו העבחת גיד משמשת ל־opponensplasty?",
+      "options": [
+        {
+          "text": "FCR ל־APB",
+          "correct": false
+        },
+        {
+          "text": "העברת FDS (לרוב מקמיצה או זרת), EIP, או ADM (Bunnell / Zancolli / Huber)",
+          "correct": true
+        },
+        {
+          "text": "ECRB ל־EPL",
+          "correct": false
+        },
+        {
+          "text": "PL ל־FCU",
+          "correct": false
+        }
+      ],
+      "explanation": "Opponensplasty: העברת גיד ל־APB/opponens — קלאסית העברת FDS (קמיצה או זרת) לפי Bunnell, EIP לפי Burkhalter, או ADM (Huber) מן הזרת; משחזרות אופוזיציה ו־pinch.",
+      "references": [
+        "Green's 8e — Ch31 Tendon Transfers (p.1192)"
+      ]
+    },
+    {
+      "id": "mock-exam-alef-f22e13",
+      "topic": "mock-exam-alef",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem": "בשיתוק רדיאלי (drop wrist), מהי העברה נפוצה לשחזור פשיטת האצבעות?",
+      "options": [
+        {
+          "text": "FCU ל־FDS",
+          "correct": false
+        },
+        {
+          "text": "FDS או PL ל־EDC/EIP, ו־PT ל־ECRB",
+          "correct": true
+        },
+        {
+          "text": "EDC ל־FDS",
+          "correct": false
+        },
+        {
+          "text": "ADM לאגודל",
+          "correct": false
+        }
+      ],
+      "explanation": "תוכנית לעצב רדיאלי: שחזור פשיטת שורש (לרוב PT ל־ECRB), פשיטת אצבעות (FDS או PL ל־EDC) ואגודל (לרוב ל־EPL). נדרשת לפחות יציבות ופלקסיה תקינות לפני ההעברות.",
+      "references": [
+        "Green's 8e — Ch31 Tendon Transfers (p.1204)"
+      ]
+    },
+    {
+      "id": "mock-exam-alef-34dc36",
+      "topic": "mock-exam-alef",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem": "בפגיעת טטראפלגיה ברמת C6, מהי ה־key pinch ומהי ההעברה המקובלת לשחזורה (Zancolli)?",
+      "options": [
+        {
+          "text": "pinch הדורש שחרור MCP ל־DIP",
+          "correct": false
+        },
+        {
+          "text": "tenodesis grasp עם חסימת (staking) MCP של האגודל והאצבעות — Zancolli, לניצול tenodesis של היד",
+          "correct": true
+        },
+        {
+          "text": "העברת לטיסימוס בלבד",
+          "correct": false
+        },
+        {
+          "text": "החלפת מפרק",
+          "correct": false
+        }
+      ],
+      "explanation": "המנוף בפגיעת C6 הוא tenodesis: הרמת שורש פעילה (wrist extension) מקפלת את האצבעות. Zancolli עוצר את ה־MCP של האגודל והאצבעות (capsulodesis/tenodesis) כדי שה־tenodesis grasp ייצור key pinch יציב.",
+      "references": [
+        "Green's 8e — Ch33 Tetraplegia (p.1279)"
+      ]
+    },
+    {
+      "id": "mock-exam-alef-eac440",
+      "topic": "mock-exam-alef",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem": "על מה מתבסס סיווג ICSHT (סיווג בינלאומי לכירורגיית כף היד בטטראפלגיה)?",
+      "options": [
+        {
+          "text": "רמת הפגיעה ברדיוגרפיה",
+          "correct": false
+        },
+        {
+          "text": "רמת ושלמות העצם העצבית, בדגש על שרירים מנחה בכוח 3/5 או 4/5 לפחות, לתכנון ההעברות",
+          "correct": true
+        },
+        {
+          "text": "גיל המטופל",
+          "correct": false
+        },
+        {
+          "text": "סוג הכיסא",
+          "correct": false
+        }
+      ],
+      "explanation": "ICSHT מחלק לקבוצות לפי השרירים ה'מנחה' (key muscles): נדרש 3/5 ל־C5, 4/5 ל־C6 ול־C7 וכן הלאה; לפי הקבוצה מתכננים את ההעברות (למשל C6: שווא פשיטת שורש לפלקסיה דרך tenodesis).",
+      "references": [
+        "Green's 8e — Ch33 Tetraplegia (p.1266)"
+      ]
+    },
+    {
+      "id": "mock-exam-alef-a9c315",
+      "topic": "mock-exam-alef",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem": "בפגיעת ברכיאלי פלקסוס טראומטית, איזה ממצא מצביע על אביולציה פרה־גנגליונית (שורשית) — הבלתי־אסירה ישירות?",
+      "options": [
+        {
+          "text": "Tinel חזק מעל המרפק",
+          "correct": false
+        },
+        {
+          "text": "סימן הורנר (פגיעת T1) עם שיתוק סרעף (phrenic, C3-5) והיעדר התאוששות",
+          "correct": true
+        },
+        {
+          "text": "שיפור כוח הדרגתי",
+          "correct": false
+        },
+        {
+          "text": "חולשה בלבד",
+          "correct": false
+        }
+      ],
+      "explanation": "הורנר, שיתוק סרעף, כאב נוירופתי עז ו־EMG עם פוטנציאלי פעולה שמורים (הגנגליון נפרד מהחוט) מעידים על פגיעה פרה־גנגליונית / אביולציה; הטיפול הוא העברת שורשים (nerve transfer), לא graft ישיר.",
+      "references": [
+        "Green's 8e — Ch34 Traumatic Brachial Plexus Injury (p.1307)"
+      ]
+    },
+    {
+      "id": "mock-exam-alef-f7e8e8",
+      "topic": "mock-exam-alef",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem": "ביילוד עם חבלת לידה של הברכיאלי פלקסוס, איזו תנוחה וחולשה מעידות על פגיעת Erb (C5–C6)?",
+      "options": [
+        {
+          "text": "יד 'מחייכת' עם חולשת D4-D5",
+          "correct": false
+        },
+        {
+          "text": "זרוע באבדוקציה וסיבוב פנימי, מרפק בפשיטה, אמה בפרונציה ושורש מקופל — 'waiter's tip'",
+          "correct": true
+        },
+        {
+          "text": "שיתוק מלא של כף היד",
+          "correct": false
+        },
+        {
+          "text": "חולשת הטרפז",
+          "correct": false
+        }
+      ],
+      "explanation": "Erb (C5-6): שיתוק deltoid, biceps, supinator וסיבובים → היד בתנוחת 'waiter's tip' (אבדוקציה, סיבוב פנימי, פשיטת מרפק, פרונציה), אובדן Moro וסופינציה, בעוד שה־grasp נשמר. Klumpke (C8-T1): צבת והורנר.",
+      "references": [
+        "Green's 8e — Ch40 Brachial Plexus Birth Injury (p.1592)"
+      ]
+    },
+    {
+      "id": "mock-exam-alef-75c7cc",
+      "topic": "mock-exam-alef",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem": "בפגיעת Klumpke (המיתר התחתון C8–T1) של לידה, מה מיוחד?",
+      "options": [
+        {
+          "text": "שיתוק המרפק",
+          "correct": false
+        },
+        {
+          "text": "שיתוק שרירי היד הקטנים (צבת) ותחושה ניטלת באספקט האולנרי, ולעיתים סימן הורנר",
+          "correct": true
+        },
+        {
+          "text": "שמירה מלאה על כף היד",
+          "correct": false
+        },
+        {
+          "text": "שיתוק הדלתואיד",
+          "correct": false
+        }
+      ],
+      "explanation": "המיתר התחתון C8-T1 נושא את הענף המוטורי לכף היד ואת הסימפתטיקה (T1) — לכן צבת של האצבעות הקטנות ולעיתים סימן הורנר. הפרוגנוזה גרועה יותר, בעיקר אם יש אביולציה.",
+      "references": [
+        "Green's 8e — Ch40 Brachial Plexus Birth Injury (p.1594)"
+      ]
+    },
+    {
+      "id": "mock-exam-alef-e8549d",
+      "topic": "mock-exam-alef",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem": "בשבר סופרה־קונדילרי (supracondylar) עם תזוזה מלאה (Gartland III) בילד, מה הטיפול?",
+      "options": [
+        {
+          "text": "גבס בלבד",
+          "correct": false
+        },
+        {
+          "text": "רדוקציה סגורה וקיבוע ב־CRPP (2–3 פריטנס) עם בדיקה נוירוסקולרית; פתוח אם כלי הדם לא משתפר",
+          "correct": true
+        },
+        {
+          "text": "החלפת מרפק",
+          "correct": false
+        },
+        {
+          "text": "המתנה ל־MRI",
+          "correct": false
+        }
+      ],
+      "explanation": "Gartland III: תזוזה מלאה — CRPP (פריטנס לטרליים/מדאליים) עם מעקב נוירוסקולרי. אי־ספיקת זרימה מתמשכת או היעדר פולס לאחר יישור מחייבים חשיפה (exploration) ושיקום העורק. סיבוכים: PIN/מדיאלי, SNI, cubitus valgus.",
+      "references": [
+        "Green's 8e — Ch41 Hand, Wrist, and Forearm Fractures in Children (p.1648)"
+      ]
+    },
+    {
+      "id": "mock-exam-alef-2ed3c6",
+      "topic": "mock-exam-alef",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem": "בסיווג Salter–Harris, איזה טיפוס עובר דרך הפיסה ויוצא דרך ה־epiphysis ומערב את המפרק?",
+      "options": [
+        {
+          "text": "type I",
+          "correct": false
+        },
+        {
+          "text": "type III",
+          "correct": true
+        },
+        {
+          "text": "type V",
+          "correct": false
+        },
+        {
+          "text": "type II",
+          "correct": false
+        }
+      ],
+      "explanation": "Salter–Harris: I — דרך הפיסה; II — פיסה ומטפיזה; III — פיסה ואפיפיזה אל תוך המפרק; IV — דרך אפיפיזה, פיסה ומטפיזה; V — כיווץ הפיסה. III ו־IV מפרקיים ודורשים רדוקציה אנטומית לשמירה על הצמיחה.",
+      "references": [
+        "Green's 8e — Ch41 Hand, Wrist, and Forearm Fractures in Children (p.1599)"
+      ]
+    },
+    {
+      "id": "mock-exam-alef-559281",
+      "topic": "mock-exam-alef",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem": "באיזה 'חלון איסכמיה' (ischemia time) מקובל להסתמך על הצלחת רפלנטציה של אצבע?",
+      "options": [
+        {
+          "text": "אין חשיבות לזמן",
+          "correct": false
+        },
+        {
+          "text": "אצבע (ללא שריר): איסכמיה חמה 6–12 שעות ואיסכמיה קרה עד כ־24 שעות; ברמה פרוקסימלית עתירת שריר: חמה כ־6 שעות",
+          "correct": true
+        },
+        {
+          "text": "עד 48 שעות בכל מצב",
+          "correct": false
+        },
+        {
+          "text": "עד שעה אחת",
+          "correct": false
+        }
+      ],
+      "explanation": "דיגיט (מטבוליזם נמוך) סובל איסכמיה חמה 6–12 שעות וקרה עד כ־24 שעות; רקמה עתירת שריר (אמה/זרוע) נפגעת תוך כ־6 שעות בחום. קירור (ללא הקפאה ישירה) מאריך את החלון.",
+      "references": [
+        "Green's 8e — Ch42 Replantation and Transplantation (p.1654)"
+      ]
+    },
+    {
+      "id": "mock-exam-alef-1a34bf",
+      "topic": "mock-exam-alef",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem": "אילו מהם הוויות ברורות לרפלנטציה (replantation)?",
+      "options": [
+        {
+          "text": "קטיעה מבודדת של אצבע המורה במבוגר",
+          "correct": false
+        },
+        {
+          "text": "אגודל, קטיעה של מספר אצבעות, כל קטיעה בילד, או קטיעה באמה/שורש היד",
+          "correct": true
+        },
+        {
+          "text": "קטיעה באמצע הזרוע בלבד",
+          "correct": false
+        },
+        {
+          "text": "רק אגודל",
+          "correct": false
+        }
+      ],
+      "explanation": "התווייות ברורות: אגודל, מספר אצבעות, ילד, קטיעה בשורש או באמה, וכל אצבע דיסטלית למדור. התווייה יחסית שלילית: קטיעה מבודדת של אצבע (לרוב לא באצבע המורה), מבוגר עם רקמה מרוסקת, מחלה משמעותית או איסכמיה ממושכת.",
+      "references": [
+        "Green's 8e — Ch42 Replantation and Transplantation (p.1660)"
+      ]
+    },
+    {
+      "id": "mock-exam-alef-da39fd",
+      "topic": "mock-exam-alef",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem": "היכן מתאים בעיקר מתלה ההתקדמות הפלמרי של מוברג (Moberg volar advancement flap)?",
+      "options": [
+        {
+          "text": "כיסוי גב כף היד",
+          "correct": false
+        },
+        {
+          "text": "חסר עור או מרקם פלמרי באגודל (עד כ־1 ס״מ), תוך שמירה על תחושה",
+          "correct": true
+        },
+        {
+          "text": "כיסוי המרפק",
+          "correct": false
+        },
+        {
+          "text": "אגודל ואצבעות גם יחד",
+          "correct": false
+        }
+      ],
+      "explanation": "Moberg הוא מתלה התקדמות דו־צדדי של האגודל; אספקת העור תלויה בעורקים הדיגיטליים הפלמריים הדו־צדדיים, ולכן התחושה נשמרת. באצבעות השימוש במתלה זה מסוכן (סיכון לנמק), כי האספקה אינה כפולה.",
+      "references": [
+        "Green's 8e — Ch44 Nonmicrosurgical Coverage of the Upper Extremity (p.1712)"
+      ]
+    },
+    {
+      "id": "mock-exam-alef-c6e2bf",
+      "topic": "mock-exam-alef",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem": "מהו 'cross-finger flap', ומדוע הוא דו־שלבי?",
+      "options": [
+        {
+          "text": "מתלה מהזרוע",
+          "correct": false
+        },
+        {
+          "text": "מתלה מגב האצבע הסמוכה לכיסוי חסר פלמרי בפלאנקס; הגשר ניתק בשלב שני לאחר כ־2 שבועות",
+          "correct": true
+        },
+        {
+          "text": "מתלה חד־שלבי מהאגודל",
+          "correct": false
+        },
+        {
+          "text": "מתלה מבטן",
+          "correct": false
+        }
+      ],
+      "explanation": "המתלה לוקח עור גב מאצבע שכנה (עם רקמה תת־עורית) לכיסוי פלמרי של פלאנקס; החיבור נשמר דרך 'גשר', והשלב השני (division) כעבור 1.5–3 שבועות. הכיסוי טוב, והתחושה מועברת חלקית.",
+      "references": [
+        "Green's 8e — Ch44 Nonmicrosurgical Coverage of the Upper Extremity (p.1708)"
+      ]
+    },
+    {
+      "id": "mock-exam-alef-ba6ba1",
+      "topic": "mock-exam-alef",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem": "בהשתלת מתלה חופשי (free flap) דק לכיסוי כף היד או האצבעות, איזה נחשב ה־'workhorse' הדק?",
+      "options": [
+        {
+          "text": "Rectus abdominis",
+          "correct": false
+        },
+        {
+          "text": "Radial forearm free flap (RFFF) או anterolateral thigh",
+          "correct": true
+        },
+        {
+          "text": "Latissimus dorsi",
+          "correct": false
+        },
+        {
+          "text": "Gracilis",
+          "correct": false
+        }
+      ],
+      "explanation": "RFFF (מתלה גומי רדיאלי חופשי) דק, בעל pedicle ארוך ואמין, ומעוצב היטב לכף היד; ALT לחסרים גדולים יותר. Gracilis ו־latissimus משמשים לחללים נפחיים. נדרש אימות Allen לפני harvest.",
+      "references": [
+        "Green's 8e — Ch45 Free Flaps to the Hand and Upper Extremity (p.1747)"
+      ]
+    },
+    {
+      "id": "mock-exam-alef-0de022",
+      "topic": "mock-exam-alef",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem": "בשחזור חוסר עצם ארוך באמה בשיטת Masquelet, מה כוללים השלבים?",
+      "options": [
+        {
+          "text": "השתלת שומן בלבד",
+          "correct": false
+        },
+        {
+          "text": "שלב א׳ — spacer (מלט) ליצירת 'induced membrane'; שלב ב׳ — הוצאת ה־spacer והשתלת עצם ספוגית בתוך הממברנה, עם קיבוע יציב",
+          "correct": true
+        },
+        {
+          "text": "קיבוץ בלבד",
+          "correct": false
+        },
+        {
+          "text": "החלפת מפרק",
+          "correct": false
+        }
+      ],
+      "explanation": "Masquelet הוא induced-membrane technique: ה־cement מעורר ממברנה וסקולרית עשירת גורמי גדילה (במשך 6–10 שבועות); בשלב השני ממלאים graft cancellous — דבר המשפר את הישרדות הפגם הקריטי.",
+      "references": [
+        "Green's 8e — Ch46 Vascularized Bone Grafting (p.1816)"
+      ]
+    },
+    {
+      "id": "mock-exam-alef-2fb263",
+      "topic": "mock-exam-alef",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem": "בשחזור אגודל לאחר קטיעה, מהי ה'gold standard' בילד או במבוגר הדורשים תחושה ותנועה?",
+      "options": [
+        {
+          "text": "פוליציזציה של אצבע 2 בלבד",
+          "correct": false
+        },
+        {
+          "text": "העברת בוהן־לאגודל (great toe-to-thumb transfer) — מיקרוכירורגיה הנותנת אורך, מפרק ותחושה",
+          "correct": true
+        },
+        {
+          "text": "השתלת סיליקון",
+          "correct": false
+        },
+        {
+          "text": "העמקת מרווח בלבד",
+          "correct": false
+        }
+      ],
+      "explanation": "Toe-to-thumb (great toe / metatarsophalangeal) נותן גודל, תנועת IP בגרסה המורחבת ותחושה — ההעדפה לשחזור אגודל נרחב. פוליציזציה עדיפה בחוסר אגודל מולד.",
+      "references": [
+        "Green's 8e — Ch47 Toe-to-Hand Transplantation (p.1820)"
+      ]
+    },
+    {
+      "id": "mock-exam-alef-f48a67",
+      "topic": "mock-exam-alef",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem": "מהו הגיל המומלץ לביצוע פוליציזציה (pollicization) של האצבע המורה לאגודל?",
+      "options": [
+        {
+          "text": "מיד לידה",
+          "correct": false
+        },
+        {
+          "text": "סביב גיל 9–18 חודשים (לפני עיגוב דפוס האחיזה, אך לאחר יציבות תרדמתית)",
+          "correct": true
+        },
+        {
+          "text": "לאחר גיל 6",
+          "correct": false
+        },
+        {
+          "text": "רק בבגרות",
+          "correct": false
+        }
+      ],
+      "explanation": "פוליציזציה מבוצעת בדרך כלל בגיל 12–18 חודשים (טווח כ־9–18): מספיק גדול לניתוח עדין ומספיק צעיר ללמידה ופלסטיות. איחור יתר פוגע באימוץ המוחי של האגודל החדש.",
+      "references": [
+        "Green's 8e — Ch48 Thumb Reconstruction (p.1863)"
+      ]
+    },
+    {
+      "id": "mock-exam-alef-b4f019",
+      "topic": "mock-exam-alef",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem": "בהעמקת המרווח הראשון (first web space deepening) לשחזור אגודל, איזו טכניקה משמשת?",
+      "options": [
+        {
+          "text": "סד לילה",
+          "correct": false
+        },
+        {
+          "text": "Z-plasty (לרוב double-opposing / ארבע־שולי) או dorsorotational flap, לעיתים עם שחרור ה־adductor",
+          "correct": true
+        },
+        {
+          "text": "השתלת עור בלבד",
+          "correct": false
+        },
+        {
+          "text": "ארתרודיזה",
+          "correct": false
+        }
+      ],
+      "explanation": "העמקת web 1: Z-plasty מרובה (ארבעה שולים / double-opposing) או dorsorotational flap; לעיתים שחרור ראש ה־adductor או ה־first dorsal interosseous. המטרה — אופוזיציה ואורך האגודל.",
+      "references": [
+        "Green's 8e — Ch48 Thumb Reconstruction (p.1875)"
+      ]
+    },
+    {
+      "id": "mock-exam-alef-2fd34d",
+      "topic": "mock-exam-alef",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem": "בהשוואת פרוסטזות לגדם טרנס־רדיאלי, איזו מעניקה שליטה וכוח אמינים ביותר לעבודת כפיים?",
+      "options": [
+        {
+          "text": "Passive cosmetic glove",
+          "correct": false
+        },
+        {
+          "text": "Body-powered hook",
+          "correct": true
+        },
+        {
+          "text": "Myoelectric hand",
+          "correct": false
+        },
+        {
+          "text": "קוסמטית מלאה",
+          "correct": false
+        }
+      ],
+      "explanation": "Body-powered hook — עמיד, עם פידבק כוח, קל, ופחות רגיש למים ואבק — עדיף לעבודה פיזית. Myoelectric — מראה טוב ו־grasp עדין אך איטי וכבד יותר. Passive — בעיקר אסתטי.",
+      "references": [
+        "Green's 8e — Ch50 Major Limb Amputations and Prosthetics (p.1961)"
+      ]
+    },
+    {
+      "id": "mock-exam-alef-c70b77",
+      "topic": "mock-exam-alef",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem": "בחשד לתסמונת מדורים (compartment syndrome) באמה, מה הסף המצדיק פשיעה (fasciotomy)?",
+      "options": [
+        {
+          "text": "לחץ תוך־שקי מוחלט מעל 100 מ״מ כספית בלבד",
+          "correct": false
+        },
+        {
+          "text": "פרש דיאסטולי פחות הלחץ התוך־שקי (delta-P) מתחת ל־30 מ״מ כספית, או לחץ מוחלט כ־30–45, עם התאמה קלינית",
+          "correct": true
+        },
+        {
+          "text": "עקצוץ בלבד",
+          "correct": false
+        },
+        {
+          "text": "היעלמות פולס",
+          "correct": false
+        }
+      ],
+      "explanation": "ה־delta pressure (דיאסטולי פחות הלחץ התוך־שקי) מתחת ל־30 מ״מ כספית הוא הסף הקלאסי לפשיעה. כאב ביישור פסיבי, הפרעת תחושה (paresthesia) וכאב 'שאינו פרופורציונלי' מופיעים מוקדם; אובדן פולס ולקות — מאוחרים. פשיעה: ארבעת המדורים באמה.",
+      "references": [
+        "Green's 8e — Ch51 Compartment Syndrome (p.1970)"
+      ]
+    },
+    {
+      "id": "mock-exam-alef-ec1f81",
+      "topic": "mock-exam-alef",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem": "באבחנת CRPS לפי קריטריוני בודפשט (Budapest), מה נדרש?",
+      "options": [
+        {
+          "text": "ממצא EMG חיובי",
+          "correct": false
+        },
+        {
+          "text": "כאב מתמשך שאינו פרופורציונלי + תסמינים ב־3 מ־4 קטגוריות + סימנים ב־2 מ־4 (חושתי, וזומוטורי, סודומוטורי, מוטורי־טרופי), ושלילת הסבר אחר",
+          "correct": true
+        },
+        {
+          "text": "ירידת טסיות",
+          "correct": false
+        },
+        {
+          "text": "אוסטאופורוזיס בצילום",
+          "correct": false
+        }
+      ],
+      "explanation": "קריטריון בודפשט: כאב מתמשך לא־פרופורציונלי, לפחות תסמין אחד מכל קטגוריה מתוך ארבע (דיוק: תסמינים ב־3/4 וסימנים ב־2/4), וללא אבחנה אחרת המסבירה טוב יותר. שלילת הסברים חלופיים הכרחית.",
+      "references": [
+        "Green's 8e — Ch53 Complex Regional Pain Syndrome (p.2006)"
+      ]
+    },
+    {
+      "id": "mock-exam-alef-d7434a",
+      "topic": "mock-exam-alef",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem": "בטיפול ב־CRPS, מהי עמדת חסימה סימפתטית / כריתת העצב הסימפתטי?",
+      "options": [
+        {
+          "text": "שורת טיפול ראשונה",
+          "correct": false
+        },
+        {
+          "text": "לא שורה ראשונה; הבסיס — פיזיותרפיה ודיסנסנטיזציה + טיפול תרופתי (gabapentin, amitriptyline), ולעיתים בלוק מקומי; סימפלקטומי־קטומיה סלקטיבית נשקלת רק בחולים נבחרים",
+          "correct": true
+        },
+        {
+          "text": "ניתוח מיידי",
+          "correct": false
+        },
+        {
+          "text": "אין צורך בטיפול",
+          "correct": false
+        }
+      ],
+      "explanation": "הגישה המבוססת: טיפול מוקדם ורב־תחומי (שיקום + תרופות נוירופתיות; bisphosphonates בשלבים מסוימים; ketamine במקרים נבחרים). סימפלקטומיקטומיה בעלתיעילות מוגבלת וזמנית, ואינה שורת טיפול ראשונה.",
+      "references": [
+        "Green's 8e — Ch53 Complex Regional Pain Syndrome (p.2017)"
+      ]
+    },
+    {
+      "id": "mock-exam-alef-9df0e6",
+      "topic": "mock-exam-alef",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem": "בראומטואיד ארתריטיס (RA) של כף היד, מהו המנגנון המרכזי של הסטייה האולארית (ulnar drift) ב־MCP?",
+      "options": [
+        {
+          "text": "קרע FDP",
+          "correct": false
+        },
+        {
+          "text": "סינוביאליטיס השוחק את ה־volar plate והרצועות, עם נדידת ה־extensor hood אולארית וגרירת האצבעות אולרית",
+          "correct": true
+        },
+        {
+          "text": "נמק",
+          "correct": false
+        },
+        {
+          "text": "פגיעת PIN",
+          "correct": false
+        }
+      ],
+      "explanation": "ב־RA מייצר הסינוביאליס שחיקת volar plate ורצועות, ה־extensor hood נודד דורסלית־אולרית, ושרירי הכיפוף נמשכים אולרית — תוך פלקסיה של MCP וסטייה אולארית, ולעיתים swan או boutonnière.",
+      "references": [
+        "Green's 8e — Ch55 Rheumatoid Arthritis and Other Inflammatory Arthropathies (p.2041)"
+      ]
+    },
+    {
+      "id": "mock-exam-alef-aac784",
+      "topic": "mock-exam-alef",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem": "'צוואר ברבור' (swan-neck) ב־RA נובע מ:",
+      "options": [
+        {
+          "text": "היחלשות volar plate ב־PIP ועליית ה־lateral bands דורסלית — יתר־פשיטה של PIP וכיפוף של DIP",
+          "correct": true
+        },
+        {
+          "text": "קרע FDP",
+          "correct": false
+        },
+        {
+          "text": "פגיעת עצב",
+          "correct": false
+        },
+        {
+          "text": "נמק אווסקולרי",
+          "correct": false
+        }
+      ],
+      "explanation": "Swan-neck: היפר־אקסטנסיה של PIP ופלקסיה של DIP. ב־RA נובע ממתיחת volar plate והקפסולה ונדידת ה־lateral bands דורסלית; intrinsic tightness ומתח FDS מחמירים.",
+      "references": [
+        "Green's 8e — Ch55 Rheumatoid Arthritis and Other Inflammatory Arthropathies (p.2045)"
+      ]
+    },
+    {
+      "id": "mock-exam-alef-a9a273",
+      "topic": "mock-exam-alef",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem": "במבחן Finkelstein/Eichhorn — מה בודקים ומה המדור?",
+      "options": [
+        {
+          "text": "התעלה הקרפלית",
+          "correct": false
+        },
+        {
+          "text": "de Quervain — מדור גבי 1 (EPB ו־EPL)",
+          "correct": true
+        },
+        {
+          "text": "מפרק DRUJ",
+          "correct": false
+        },
+        {
+          "text": "גיד FDP",
+          "correct": false
+        }
+      ],
+      "explanation": "Finkelstein: מקפלים את האגודל בתוך האצבעות ובהייה אולארית — כאב מעל מדור 1 מעיד על de Quervain (tenosynovitis של APL ו־EPB). התיקון: שחרור מדור 1, בזהירות לענף החוש הרדיאלי הגבי.",
+      "references": [
+        "Green's 8e — Ch56 Tendinopathy (p.2110)"
+      ]
+    },
+    {
+      "id": "mock-exam-alef-ddb26a",
+      "topic": "mock-exam-alef",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem": "ב'אצבע מתלקת' (trigger finger) במבוגר, מהו המוקד הפתולוגי ומה התנאים המלווים?",
+      "options": [
+        {
+          "text": "שחרור מדור 6",
+          "correct": false
+        },
+        {
+          "text": "סטנוזיס במדור A1 (pulley), שכיח ומרובה־אצבעות בדיאבטיים, RA ואמילואידוזיס",
+          "correct": true
+        },
+        {
+          "text": "קרע FDP",
+          "correct": false
+        },
+        {
+          "text": "פגיעת PIN",
+          "correct": false
+        }
+      ],
+      "explanation": "Trigger finger: נודול בגיד והיצרות של A1 גורמים 'קליק' ונעילה. מרובה־אצבעות ועמידות — סוכרת, RA ואמילואידוזיס. הטיפול: סד או הזרקה, ואז שחרור כירורגי של A1.",
+      "references": [
+        "Green's 8e — Ch56 Tendinopathy (p.2112)"
+      ]
+    },
+    {
+      "id": "mock-exam-alef-44d20b",
+      "topic": "mock-exam-alef",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem": "בכוויית גב כף היד, כיצד מונעים קונטרקטורות?",
+      "options": [
+        {
+          "text": "המתנה לבגירה",
+          "correct": false
+        },
+        {
+          "text": "חיבוש ב־'intrinsic-plus' (position of safe): שורש בהרחקה, MCP כ־70°, IP ישר — ותנועה מוקדמת",
+          "correct": true
+        },
+        {
+          "text": "סד פלקסיה מלאה",
+          "correct": false
+        },
+        {
+          "text": "גבס מתחת ל־MCP",
+          "correct": false
+        }
+      ],
+      "explanation": "כוויית גב היד מועדות לקריסת ה־MCP לכיפוף וליצירת 'claw'. חיבוש ב־intrinsic-plus (position of safe) עם סד ותנועה מוקדמת מונע מתיחת ה־volar plate וקונטרקטורה.",
+      "references": [
+        "Green's 8e — Ch57 The Burned Hand (p.2130)"
+      ]
+    },
+    {
+      "id": "mock-exam-alef-b4897c",
+      "topic": "mock-exam-alef",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem": "מהי התמונה הקלינית האופיינית לגיד גלומוס (glomus tumor)?",
+      "options": [
+        {
+          "text": "מנוקתה גדולה חסרת כאב",
+          "correct": false
+        },
+        {
+          "text": "טריאדה: כאב התקפי עז, רגישות נקודתית (Love test) ורגישות לקור; לעיתים נקודה כחכחחה מתחת לציפורן",
+          "correct": true
+        },
+        {
+          "text": "גיד שומני",
+          "correct": false
+        },
+        {
+          "text": "התאכלות עצם פרוגרסיבית",
+          "correct": false
+        }
+      ],
+      "explanation": "Glomus הוא גיד של גוף הגלומוס (וויסות הטמפרטורה), לרוב תת־ציפורני ודיסטלי; טריאדת הכאב, הרגישות והקור; Love/pin test; היפופלזיה עצם בצילום; MRI מרשים. הטיפול — אקסיזיה.",
+      "references": [
+        "Green's 8e — Ch58 Skin Tumors of the Hand and Upper Extremity (p.2153)"
+      ]
+    },
+    {
+      "id": "mock-exam-alef-bfd9af",
+      "topic": "mock-exam-alef",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem": "במלנומה בעור כף היד, כיצד נקבע רוחב שולי ההסרה (wide excision margins)?",
+      "options": [
+        {
+          "text": "שוליים אחידים של 0.5 ס״מ לכול",
+          "correct": false
+        },
+        {
+          "text": "לפי עומק Breslow: עד 1 מ״מ — 1 ס״מ; 1.01–2 מ״מ — 1–2 ס״מ; מעל 2 מ״מ — 2 ס״מ",
+          "correct": true
+        },
+        {
+          "text": "ללא שוליים",
+          "correct": false
+        },
+        {
+          "text": "4 ס״מ תמיד",
+          "correct": false
+        }
+      ],
+      "explanation": "השוליים מותאמים לעומק (Breslow): in situ — 0.5–1 ס״מ; עד 1 מ״מ — 1 ס״מ; 1.01–2 — 1–2 ס״מ; מעל 2 — 2 ס״מ. SLNB נשקל לפי עומק וסימנים, והשוליים ערוכים לפי דירוג.",
+      "references": [
+        "Green's 8e — Ch58 Skin Tumors of the Hand and Upper Extremity (p.2170)"
+      ]
+    },
+    {
+      "id": "mock-exam-alef-2e35c7",
+      "topic": "mock-exam-alef",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem": "מהו גיד הרקמה הרכה השכיח בכף היד (אחרי הגנגליון)?",
+      "options": [
+        {
+          "text": "Giant cell tumor of tendon sheath (GCTTS)",
+          "correct": true
+        },
+        {
+          "text": "Liposarcoma",
+          "correct": false
+        },
+        {
+          "text": "Dermatofibrosarcoma protuberans",
+          "correct": false
+        },
+        {
+          "text": "Fibrosarcoma",
+          "correct": false
+        }
+      ],
+      "explanation": "GCTTS (נודולר טנוסינוביטיס, גיד תא ענק ממוקד) הוא השני בשכיחות אחרי הגנגליון; מסה קשה לרוב בכף היד והאצבעות; הטיפול — אקסיזיה שמרנית, עם הישנות של עד כ־10–40% (בעיקר בגרסה הדיפוזית/PVNS).",
+      "references": [
+        "Green's 8e — Ch59 Bone and Soft Tissue Tumors (p.2189)"
+      ]
+    },
+    {
+      "id": "mock-exam-alef-a78db8",
+      "topic": "mock-exam-alef",
+      "type": "mcq",
+      "difficulty": "medium",
+      "stem": "ב'תסמונת פטיש ההיפותנר' (hypothenar hammer syndrome), מה הפתולוגיה ומה הבדיקה?",
+      "options": [
+        {
+          "text": "קרע העורק הרדיאלי",
+          "correct": false
+        },
+        {
+          "text": "טרומבוזה או אנאוריזמה של העורק האולנרי בתעלת Guyon (בעבודת כף היד כפטיש); Allen test ודופלר",
+          "correct": true
+        },
+        {
+          "text": "שיתוק PIN",
+          "correct": false
+        },
+        {
+          "text": "פגיעת העצב המדיאלי",
+          "correct": false
+        }
+      ],
+      "explanation": "העורק האולנרי נדחס בין ה־hamate לפטיש בחבלה חוזרת — גורם לפגיעת האינטימה, אנאוריזמה או טרומבוזה ואמבולי דיגיטליים. Allen test שלילי, angiography או Dupler; הטיפול: הימנעות, אנטי־טרומבוקטי, ולעיתים שחזור או bypass.",
+      "references": [
+        "Green's 8e — Ch60 Vascular Disorders of the Hand (p.2251)"
+      ]
+    }
+  ]
+}
